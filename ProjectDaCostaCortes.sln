@@ -5,6 +5,8 @@ VisualStudioVersion = 17.14.37710.0 d17.14
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{D2ABAB84-BF74-430A-B69E-9DC6D40DDA17}") = "ProjectDaCostaCortes", "Cube/ProjectDaCostaCortes.dwproj", "{2014EADB-C39F-B3E1-4CAE-0E484A8E86D8}"
 EndProject
+Project("{159641D6-6404-4A2A-AE62-294DE0FE8301}") = "ETLScribus_DacostaCortes", "ETL\ETLScribus_DacostaCortes\ETLScribus_DacostaCortes.dtproj", "{7B1C3A52-4D8E-4F6A-9C21-5E0A8D3F6B14}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Development|Default = Development|Default
@@ -13,6 +15,9 @@ Global
 		{2014EADB-C39F-B3E1-4CAE-0E484A8E86D8}.Development|Default.ActiveCfg = Development
 		{2014EADB-C39F-B3E1-4CAE-0E484A8E86D8}.Development|Default.Build.0 = Development
 		{2014EADB-C39F-B3E1-4CAE-0E484A8E86D8}.Development|Default.Deploy.0 = Development
+		{7B1C3A52-4D8E-4F6A-9C21-5E0A8D3F6B14}.Development|Default.ActiveCfg = Development
+		{7B1C3A52-4D8E-4F6A-9C21-5E0A8D3F6B14}.Development|Default.Build.0 = Development
+		{7B1C3A52-4D8E-4F6A-9C21-5E0A8D3F6B14}.Development|Default.Deploy.0 = Development
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
