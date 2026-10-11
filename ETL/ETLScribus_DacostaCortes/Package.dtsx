@@ -11,6 +11,7 @@
   DTS:LocaleID="1033"
   DTS:ObjectName="Package"
   DTS:PackageType="5"
+  DTS:ProtectionLevel="0"
   DTS:VersionBuild="1"
   DTS:VersionGUID="{AA945420-F095-4433-AD46-15A2BC02654D}">
   <DTS:Property
@@ -21,6 +22,8 @@
       DTS:CreationName="FLATFILE"
       DTS:DTSID="{7287F586-9DE7-4FAD-A43C-589A5D575E9C}"
       DTS:ObjectName="Flat File Connection Manager">
+      <DTS:PropertyExpression
+        DTS:Name="ConnectionString">@[$Project::SourceFilePath]</DTS:PropertyExpression>
       <DTS:ObjectData>
         <DTS:ConnectionManager
           DTS:Format="Delimited"

@@ -12,7 +12,7 @@
   <DataSourceViews />
   <DeploymentModelSpecificContent>
     <Manifest>
-      <SSIS:Project SSIS:ProtectionLevel="EncryptSensitiveWithUserKey" xmlns:SSIS="www.microsoft.com/SqlServer/SSIS">
+      <SSIS:Project SSIS:ProtectionLevel="DontSaveSensitive" xmlns:SSIS="www.microsoft.com/SqlServer/SSIS">
         <SSIS:Properties>
           <SSIS:Property SSIS:Name="ID">{ba1749f4-bcb4-405d-9f04-9498a437d556}</SSIS:Property>
           <SSIS:Property SSIS:Name="Name">ETLScribus_DacostaCortes</SSIS:Property>
@@ -26,7 +26,6 @@
           <SSIS:Property SSIS:Name="CreatorComputerName">DESKTOP-MMH193P</SSIS:Property>
           <SSIS:Property SSIS:Name="Description">
           </SSIS:Property>
-          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA4Ry5QD+t70+HfY5FG4h48wAAAAACAAAAAAAQZgAAAAEAACAAAACdkzhe5WO//wudcPU4vvwq0ZRZkYpkaspyakXo/YbCdAAAAAAOgAAAAAIAACAAAAAnr1vgKsyCGUxaazWdUHkti3rFRlxYW/Ky6SZoKKs3xZAAAACUNZiv4YxvcuFTPYMRrwnCtEQ08/STdDnDmmIgfxMX3vFf4gSPU8KRRvDH+VPx768Z8kC15UKm071/rNSBy1FG4IovZbUVaiHzXleP7yBstf6NJJhq0mganPkSvh7W4WS8j9MUP3QhTUzSboicPThhTpZ3vO8puJ439xOzsPOw3To9SyEaSmuS8VUeM9KfajFAAAAAPKRV4ObkpVOhZYGI/C/u7/1gjppIc09uxs80xE50vJixeLDHYL630rfGBZGE1L98OdL++uaeSDxTJrmNOWnP3A==</SSIS:Property>
           <SSIS:Property SSIS:Name="FormatVersion">1</SSIS:Property>
         </SSIS:Properties>
         <SSIS:Packages>
@@ -49,7 +48,7 @@
                 <SSIS:Property SSIS:Name="PackageFormatVersion">8</SSIS:Property>
                 <SSIS:Property SSIS:Name="Description">
                 </SSIS:Property>
-                <SSIS:Property SSIS:Name="ProtectionLevel">1</SSIS:Property>
+                <SSIS:Property SSIS:Name="ProtectionLevel">0</SSIS:Property>
               </SSIS:Properties>
               <SSIS:Parameters>
                 <SSIS:Parameter SSIS:Name="CM.Flat File Connection Manager.AlwaysCheckForRowDelimiters">
