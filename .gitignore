@@ -6,3 +6,5 @@ obj/
 *.abf
 *.csv
 !DataSource/*.csv
+/.claude
+/.claude/settings.local.json
