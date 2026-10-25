@@ -5,15 +5,15 @@
   DTS:CreationName="Microsoft.Package"
   DTS:CreatorComputerName="DESKTOP-MMH193P"
   DTS:CreatorName="HES-SO\julio.cortes"
-  DTS:DTSID="{2B14D02E-F56B-41D0-9BD4-542FFB5E401F}"
+  DTS:DTSID="{17291C90-FD13-48D4-A255-0F6B7F96F1C2}"
   DTS:ExecutableType="Microsoft.Package"
   DTS:LastModifiedProductVersion="17.0.1016.0"
   DTS:LocaleID="1033"
-  DTS:ObjectName="Package"
+  DTS:ObjectName="Initial_Load"
   DTS:PackageType="5"
   DTS:ProtectionLevel="0"
-  DTS:VersionBuild="1"
-  DTS:VersionGUID="{AA945420-F095-4433-AD46-15A2BC02654D}">
+  DTS:VersionBuild="4"
+  DTS:VersionGUID="{8103405C-00A7-437D-8BBE-B579A6FF95BF}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -33,7 +33,7 @@
           DTS:RowDelimiter=""
           DTS:TextQualifier="_x003C_none_x003E_"
           DTS:CodePage="1252"
-          DTS:ConnectionString="D:\DATAFiles\Codes\DataExplo\ProjectDaCostaCortes\DataSource\scribus-dump-2026-01-09.csv">
+          DTS:ConnectionString="C:\BI\Data\scribus-dump.csv">
           <DTS:FlatFileColumns>
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -826,7 +826,7 @@
       <GraphLayout
         Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph">
         <NodeLayout
-          Size="152,42.6666666666667"
+          Size="152,42.5"
           Id="Package\Data Flow Task"
           TopLeft="5.5,5.5" />
       </GraphLayout>
