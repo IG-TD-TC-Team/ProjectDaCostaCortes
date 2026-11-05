@@ -1,4 +1,4 @@
-﻿<?xml version="1.0"?>
+<?xml version="1.0"?>
 <DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
   DTS:ObjectName="DW_Scribus connection"
   DTS:DTSID="{E26D47D4-EDBF-4061-B20D-14B0024B3278}"
@@ -7,6 +7,6 @@
     <DTS:ConnectionManager
       DTS:ConnectRetryCount="1"
       DTS:ConnectRetryInterval="5"
-      DTS:ConnectionString="Data Source=TATIANA\SQLEXPRESS01;Initial Catalog=DW_Scribus;Provider=SQLNCLI11.1;Integrated Security=SSPI;Application Name=SSIS-Initial_Load-{E26D47D4-EDBF-4061-B20D-14B0024B3278}TATIANA\SQLEXPRESS01.DW_Scribus;Auto Translate=False;" />
+      DTS:ConnectionString="Data Source=localhost;Initial Catalog=DW_Scribus;Provider=SQLNCLI11.1;Integrated Security=SSPI;Auto Translate=False;Application Name=SSIS-Initial_Load-{E26D47D4-EDBF-4061-B20D-14B0024B3278}TATIANA\SQLEXPRESS01.DW_Scribus;" />
   </DTS:ObjectData>
 </DTS:ConnectionManager>

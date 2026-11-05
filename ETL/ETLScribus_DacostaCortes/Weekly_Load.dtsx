@@ -1,4 +1,4 @@
-﻿<?xml version="1.0"?>
+<?xml version="1.0"?>
 <DTS:Executable xmlns:DTS="www.microsoft.com/SqlServer/Dts"
   DTS:refId="Package"
   DTS:CreationDate="10/11/2026 4:44:25 PM"
@@ -12,8 +12,8 @@
   DTS:ObjectName="Weekly_Load"
   DTS:PackageType="5"
   DTS:ProtectionLevel="0"
-  DTS:VersionBuild="80"
-  DTS:VersionGUID="{8EC0E077-0A77-4F2B-B1C3-C2DD2359BF84}">
+  DTS:VersionBuild="81"
+  DTS:VersionGUID="{87D8C0A4-5A91-4EAF-AFBF-93D4C2E75185}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -227,7 +227,6 @@
       DTS:CreationName=""
       DTS:DTSID="{974E7A52-6929-42D3-AE9B-3DD3B1B98EC7}"
       DTS:EvaluateAsExpression="True"
-      DTS:Expression="@[$Package::FilePath]"
       DTS:IncludeInDebugDump="2345"
       DTS:Namespace="User"
       DTS:ObjectName="FullFilePath">
@@ -286,7 +285,7 @@
                   dataType="System.String"
                   description="The SQL command to be executed."
                   name="SqlCommand"
-                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor"></property>
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor, Microsoft.DataTransformationServices.Controls, Version=17.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91"></property>
                 <property
                   dataType="System.Int32"
                   description="Specifies the column code page to use when code page information is unavailable from the data source."
@@ -320,8 +319,8 @@
               <connections>
                 <connection
                   refId="Package\Load Dim_Assigned_to\Dim_Assigned_to.Connections[OleDbConnection]"
-                  connectionManagerID="{E26D47D4-EDBF-4061-B20D-14B0024B3278}:external"
-                  connectionManagerRefId="Project.ConnectionManagers[DW_Scribus connection]"
+                  connectionManagerID="{E26D47D4-EDBF-4061-B20D-14B0024B3278}:invalid"
+                  connectionManagerRefId="{E26D47D4-EDBF-4061-B20D-14B0024B3278}:invalid"
                   description="The OLE DB runtime connection used to access the database."
                   name="OleDbConnection" />
               </connections>
@@ -405,7 +404,7 @@
                   dataType="System.String"
                   description="The SQL command to be executed."
                   name="SqlCommand"
-                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">SELECT DISTINCT s.assigned_to AS assigned_to_name
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor, Microsoft.DataTransformationServices.Controls, Version=17.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91">SELECT DISTINCT s.assigned_to AS assigned_to_name
 FROM silver.Ticket_Clean s
 WHERE NOT EXISTS (SELECT 1 FROM dbo.Dim_Assigned_To d WHERE d.assigned_to_name = s.assigned_to);</property>
                 <property
@@ -433,8 +432,8 @@ WHERE NOT EXISTS (SELECT 1 FROM dbo.Dim_Assigned_To d WHERE d.assigned_to_name =
               <connections>
                 <connection
                   refId="Package\Load Dim_Assigned_to\Read Silver.Connections[OleDbConnection]"
-                  connectionManagerID="{E26D47D4-EDBF-4061-B20D-14B0024B3278}:external"
-                  connectionManagerRefId="Project.ConnectionManagers[DW_Scribus connection]"
+                  connectionManagerID="{E26D47D4-EDBF-4061-B20D-14B0024B3278}:invalid"
+                  connectionManagerRefId="{E26D47D4-EDBF-4061-B20D-14B0024B3278}:invalid"
                   description="The OLE DB runtime connection used to access the database."
                   name="OleDbConnection" />
               </connections>
@@ -541,7 +540,7 @@ WHERE NOT EXISTS (SELECT 1 FROM dbo.Dim_Assigned_To d WHERE d.assigned_to_name =
                   dataType="System.String"
                   description="The SQL command to be executed."
                   name="SqlCommand"
-                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor"></property>
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor, Microsoft.DataTransformationServices.Controls, Version=17.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91"></property>
                 <property
                   dataType="System.Int32"
                   description="Specifies the column code page to use when code page information is unavailable from the data source."
@@ -575,8 +574,8 @@ WHERE NOT EXISTS (SELECT 1 FROM dbo.Dim_Assigned_To d WHERE d.assigned_to_name =
               <connections>
                 <connection
                   refId="Package\Load Dim_Category\Dim_Category.Connections[OleDbConnection]"
-                  connectionManagerID="{E26D47D4-EDBF-4061-B20D-14B0024B3278}:external"
-                  connectionManagerRefId="Project.ConnectionManagers[DW_Scribus connection]"
+                  connectionManagerID="{E26D47D4-EDBF-4061-B20D-14B0024B3278}:invalid"
+                  connectionManagerRefId="{E26D47D4-EDBF-4061-B20D-14B0024B3278}:invalid"
                   description="The OLE DB runtime connection used to access the database."
                   name="OleDbConnection" />
               </connections>
@@ -660,7 +659,7 @@ WHERE NOT EXISTS (SELECT 1 FROM dbo.Dim_Assigned_To d WHERE d.assigned_to_name =
                   dataType="System.String"
                   description="The SQL command to be executed."
                   name="SqlCommand"
-                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">SELECT DISTINCT s.category AS category_name
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor, Microsoft.DataTransformationServices.Controls, Version=17.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91">SELECT DISTINCT s.category AS category_name
 FROM silver.Ticket_Clean s
 WHERE NOT EXISTS (SELECT 1 FROM dbo.Dim_Category d WHERE d.category_name = s.category);</property>
                 <property
@@ -688,8 +687,8 @@ WHERE NOT EXISTS (SELECT 1 FROM dbo.Dim_Category d WHERE d.category_name = s.cat
               <connections>
                 <connection
                   refId="Package\Load Dim_Category\Read Silver.Connections[OleDbConnection]"
-                  connectionManagerID="{E26D47D4-EDBF-4061-B20D-14B0024B3278}:external"
-                  connectionManagerRefId="Project.ConnectionManagers[DW_Scribus connection]"
+                  connectionManagerID="{E26D47D4-EDBF-4061-B20D-14B0024B3278}:invalid"
+                  connectionManagerRefId="{E26D47D4-EDBF-4061-B20D-14B0024B3278}:invalid"
                   description="The OLE DB runtime connection used to access the database."
                   name="OleDbConnection" />
               </connections>
@@ -796,7 +795,7 @@ WHERE NOT EXISTS (SELECT 1 FROM dbo.Dim_Category d WHERE d.category_name = s.cat
                   dataType="System.String"
                   description="The SQL command to be executed."
                   name="SqlCommand"
-                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor"></property>
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor, Microsoft.DataTransformationServices.Controls, Version=17.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91"></property>
                 <property
                   dataType="System.Int32"
                   description="Specifies the column code page to use when code page information is unavailable from the data source."
@@ -830,8 +829,8 @@ WHERE NOT EXISTS (SELECT 1 FROM dbo.Dim_Category d WHERE d.category_name = s.cat
               <connections>
                 <connection
                   refId="Package\Load Dim_OS\Dim_OS.Connections[OleDbConnection]"
-                  connectionManagerID="{E26D47D4-EDBF-4061-B20D-14B0024B3278}:external"
-                  connectionManagerRefId="Project.ConnectionManagers[DW_Scribus connection]"
+                  connectionManagerID="{E26D47D4-EDBF-4061-B20D-14B0024B3278}:invalid"
+                  connectionManagerRefId="{E26D47D4-EDBF-4061-B20D-14B0024B3278}:invalid"
                   description="The OLE DB runtime connection used to access the database."
                   name="OleDbConnection" />
               </connections>
@@ -927,7 +926,7 @@ WHERE NOT EXISTS (SELECT 1 FROM dbo.Dim_Category d WHERE d.category_name = s.cat
                   dataType="System.String"
                   description="The SQL command to be executed."
                   name="SqlCommand"
-                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">SELECT DISTINCT s.os, s.os_version
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor, Microsoft.DataTransformationServices.Controls, Version=17.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91">SELECT DISTINCT s.os, s.os_version
 FROM silver.Ticket_Clean s
 WHERE NOT EXISTS (SELECT 1 FROM dbo.Dim_OS d WHERE d.os = s.os AND d.os_version = s.os_version);</property>
                 <property
@@ -955,8 +954,8 @@ WHERE NOT EXISTS (SELECT 1 FROM dbo.Dim_OS d WHERE d.os = s.os AND d.os_version 
               <connections>
                 <connection
                   refId="Package\Load Dim_OS\Read Silver.Connections[OleDbConnection]"
-                  connectionManagerID="{E26D47D4-EDBF-4061-B20D-14B0024B3278}:external"
-                  connectionManagerRefId="Project.ConnectionManagers[DW_Scribus connection]"
+                  connectionManagerID="{E26D47D4-EDBF-4061-B20D-14B0024B3278}:invalid"
+                  connectionManagerRefId="{E26D47D4-EDBF-4061-B20D-14B0024B3278}:invalid"
                   description="The OLE DB runtime connection used to access the database."
                   name="OleDbConnection" />
               </connections>
@@ -1084,7 +1083,7 @@ WHERE NOT EXISTS (SELECT 1 FROM dbo.Dim_OS d WHERE d.os = s.os AND d.os_version 
                   dataType="System.String"
                   description="The SQL command to be executed."
                   name="SqlCommand"
-                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor"></property>
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor, Microsoft.DataTransformationServices.Controls, Version=17.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91"></property>
                 <property
                   dataType="System.Int32"
                   description="Specifies the column code page to use when code page information is unavailable from the data source."
@@ -1118,8 +1117,8 @@ WHERE NOT EXISTS (SELECT 1 FROM dbo.Dim_OS d WHERE d.os = s.os AND d.os_version 
               <connections>
                 <connection
                   refId="Package\Load Dim_Platform\Dim_Platform.Connections[OleDbConnection]"
-                  connectionManagerID="{E26D47D4-EDBF-4061-B20D-14B0024B3278}:external"
-                  connectionManagerRefId="Project.ConnectionManagers[DW_Scribus connection]"
+                  connectionManagerID="{E26D47D4-EDBF-4061-B20D-14B0024B3278}:invalid"
+                  connectionManagerRefId="{E26D47D4-EDBF-4061-B20D-14B0024B3278}:invalid"
                   description="The OLE DB runtime connection used to access the database."
                   name="OleDbConnection" />
               </connections>
@@ -1203,7 +1202,7 @@ WHERE NOT EXISTS (SELECT 1 FROM dbo.Dim_OS d WHERE d.os = s.os AND d.os_version 
                   dataType="System.String"
                   description="The SQL command to be executed."
                   name="SqlCommand"
-                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">SELECT DISTINCT s.platform AS platform_name
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor, Microsoft.DataTransformationServices.Controls, Version=17.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91">SELECT DISTINCT s.platform AS platform_name
 FROM silver.Ticket_Clean s
 WHERE NOT EXISTS (SELECT 1 FROM dbo.Dim_Platform d WHERE d.platform_name = s.platform);</property>
                 <property
@@ -1231,8 +1230,8 @@ WHERE NOT EXISTS (SELECT 1 FROM dbo.Dim_Platform d WHERE d.platform_name = s.pla
               <connections>
                 <connection
                   refId="Package\Load Dim_Platform\Read Silver.Connections[OleDbConnection]"
-                  connectionManagerID="{E26D47D4-EDBF-4061-B20D-14B0024B3278}:external"
-                  connectionManagerRefId="Project.ConnectionManagers[DW_Scribus connection]"
+                  connectionManagerID="{E26D47D4-EDBF-4061-B20D-14B0024B3278}:invalid"
+                  connectionManagerRefId="{E26D47D4-EDBF-4061-B20D-14B0024B3278}:invalid"
                   description="The OLE DB runtime connection used to access the database."
                   name="OleDbConnection" />
               </connections>
@@ -1339,7 +1338,7 @@ WHERE NOT EXISTS (SELECT 1 FROM dbo.Dim_Platform d WHERE d.platform_name = s.pla
                   dataType="System.String"
                   description="The SQL command to be executed."
                   name="SqlCommand"
-                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor"></property>
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor, Microsoft.DataTransformationServices.Controls, Version=17.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91"></property>
                 <property
                   dataType="System.Int32"
                   description="Specifies the column code page to use when code page information is unavailable from the data source."
@@ -1373,8 +1372,8 @@ WHERE NOT EXISTS (SELECT 1 FROM dbo.Dim_Platform d WHERE d.platform_name = s.pla
               <connections>
                 <connection
                   refId="Package\Load Dim_Priority\Dim_Priority.Connections[OleDbConnection]"
-                  connectionManagerID="{E26D47D4-EDBF-4061-B20D-14B0024B3278}:external"
-                  connectionManagerRefId="Project.ConnectionManagers[DW_Scribus connection]"
+                  connectionManagerID="{E26D47D4-EDBF-4061-B20D-14B0024B3278}:invalid"
+                  connectionManagerRefId="{E26D47D4-EDBF-4061-B20D-14B0024B3278}:invalid"
                   description="The OLE DB runtime connection used to access the database."
                   name="OleDbConnection" />
               </connections>
@@ -1458,7 +1457,7 @@ WHERE NOT EXISTS (SELECT 1 FROM dbo.Dim_Platform d WHERE d.platform_name = s.pla
                   dataType="System.String"
                   description="The SQL command to be executed."
                   name="SqlCommand"
-                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">SELECT DISTINCT s.priority AS priority_name
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor, Microsoft.DataTransformationServices.Controls, Version=17.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91">SELECT DISTINCT s.priority AS priority_name
 FROM silver.Ticket_Clean s
 WHERE NOT EXISTS (SELECT 1 FROM dbo.Dim_Priority d WHERE d.priority_name = s.priority);</property>
                 <property
@@ -1486,8 +1485,8 @@ WHERE NOT EXISTS (SELECT 1 FROM dbo.Dim_Priority d WHERE d.priority_name = s.pri
               <connections>
                 <connection
                   refId="Package\Load Dim_Priority\Read Silver.Connections[OleDbConnection]"
-                  connectionManagerID="{E26D47D4-EDBF-4061-B20D-14B0024B3278}:external"
-                  connectionManagerRefId="Project.ConnectionManagers[DW_Scribus connection]"
+                  connectionManagerID="{E26D47D4-EDBF-4061-B20D-14B0024B3278}:invalid"
+                  connectionManagerRefId="{E26D47D4-EDBF-4061-B20D-14B0024B3278}:invalid"
                   description="The OLE DB runtime connection used to access the database."
                   name="OleDbConnection" />
               </connections>
@@ -1594,7 +1593,7 @@ WHERE NOT EXISTS (SELECT 1 FROM dbo.Dim_Priority d WHERE d.priority_name = s.pri
                   dataType="System.String"
                   description="The SQL command to be executed."
                   name="SqlCommand"
-                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor"></property>
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor, Microsoft.DataTransformationServices.Controls, Version=17.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91"></property>
                 <property
                   dataType="System.Int32"
                   description="Specifies the column code page to use when code page information is unavailable from the data source."
@@ -1628,8 +1627,8 @@ WHERE NOT EXISTS (SELECT 1 FROM dbo.Dim_Priority d WHERE d.priority_name = s.pri
               <connections>
                 <connection
                   refId="Package\Load Dim_Project\Dim_Project.Connections[OleDbConnection]"
-                  connectionManagerID="{E26D47D4-EDBF-4061-B20D-14B0024B3278}:external"
-                  connectionManagerRefId="Project.ConnectionManagers[DW_Scribus connection]"
+                  connectionManagerID="{E26D47D4-EDBF-4061-B20D-14B0024B3278}:invalid"
+                  connectionManagerRefId="{E26D47D4-EDBF-4061-B20D-14B0024B3278}:invalid"
                   description="The OLE DB runtime connection used to access the database."
                   name="OleDbConnection" />
               </connections>
@@ -1713,7 +1712,7 @@ WHERE NOT EXISTS (SELECT 1 FROM dbo.Dim_Priority d WHERE d.priority_name = s.pri
                   dataType="System.String"
                   description="The SQL command to be executed."
                   name="SqlCommand"
-                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">SELECT DISTINCT s.project AS project_name
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor, Microsoft.DataTransformationServices.Controls, Version=17.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91">SELECT DISTINCT s.project AS project_name
 FROM silver.Ticket_Clean s
 WHERE NOT EXISTS (SELECT 1 FROM dbo.Dim_Project d WHERE d.project_name = s.project);</property>
                 <property
@@ -1741,8 +1740,8 @@ WHERE NOT EXISTS (SELECT 1 FROM dbo.Dim_Project d WHERE d.project_name = s.proje
               <connections>
                 <connection
                   refId="Package\Load Dim_Project\Read Silver.Connections[OleDbConnection]"
-                  connectionManagerID="{E26D47D4-EDBF-4061-B20D-14B0024B3278}:external"
-                  connectionManagerRefId="Project.ConnectionManagers[DW_Scribus connection]"
+                  connectionManagerID="{E26D47D4-EDBF-4061-B20D-14B0024B3278}:invalid"
+                  connectionManagerRefId="{E26D47D4-EDBF-4061-B20D-14B0024B3278}:invalid"
                   description="The OLE DB runtime connection used to access the database."
                   name="OleDbConnection" />
               </connections>
@@ -1849,7 +1848,7 @@ WHERE NOT EXISTS (SELECT 1 FROM dbo.Dim_Project d WHERE d.project_name = s.proje
                   dataType="System.String"
                   description="The SQL command to be executed."
                   name="SqlCommand"
-                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor"></property>
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor, Microsoft.DataTransformationServices.Controls, Version=17.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91"></property>
                 <property
                   dataType="System.Int32"
                   description="Specifies the column code page to use when code page information is unavailable from the data source."
@@ -1883,8 +1882,8 @@ WHERE NOT EXISTS (SELECT 1 FROM dbo.Dim_Project d WHERE d.project_name = s.proje
               <connections>
                 <connection
                   refId="Package\Load Dim_Reporter\Dim_Reporter.Connections[OleDbConnection]"
-                  connectionManagerID="{E26D47D4-EDBF-4061-B20D-14B0024B3278}:external"
-                  connectionManagerRefId="Project.ConnectionManagers[DW_Scribus connection]"
+                  connectionManagerID="{E26D47D4-EDBF-4061-B20D-14B0024B3278}:invalid"
+                  connectionManagerRefId="{E26D47D4-EDBF-4061-B20D-14B0024B3278}:invalid"
                   description="The OLE DB runtime connection used to access the database."
                   name="OleDbConnection" />
               </connections>
@@ -1968,7 +1967,7 @@ WHERE NOT EXISTS (SELECT 1 FROM dbo.Dim_Project d WHERE d.project_name = s.proje
                   dataType="System.String"
                   description="The SQL command to be executed."
                   name="SqlCommand"
-                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">SELECT DISTINCT s.reporter AS reporter_name
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor, Microsoft.DataTransformationServices.Controls, Version=17.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91">SELECT DISTINCT s.reporter AS reporter_name
 FROM silver.Ticket_Clean s
 WHERE NOT EXISTS (SELECT 1 FROM dbo.Dim_Reporter d WHERE d.reporter_name = s.reporter);</property>
                 <property
@@ -1996,8 +1995,8 @@ WHERE NOT EXISTS (SELECT 1 FROM dbo.Dim_Reporter d WHERE d.reporter_name = s.rep
               <connections>
                 <connection
                   refId="Package\Load Dim_Reporter\Read Silver.Connections[OleDbConnection]"
-                  connectionManagerID="{E26D47D4-EDBF-4061-B20D-14B0024B3278}:external"
-                  connectionManagerRefId="Project.ConnectionManagers[DW_Scribus connection]"
+                  connectionManagerID="{E26D47D4-EDBF-4061-B20D-14B0024B3278}:invalid"
+                  connectionManagerRefId="{E26D47D4-EDBF-4061-B20D-14B0024B3278}:invalid"
                   description="The OLE DB runtime connection used to access the database."
                   name="OleDbConnection" />
               </connections>
@@ -2104,7 +2103,7 @@ WHERE NOT EXISTS (SELECT 1 FROM dbo.Dim_Reporter d WHERE d.reporter_name = s.rep
                   dataType="System.String"
                   description="The SQL command to be executed."
                   name="SqlCommand"
-                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor"></property>
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor, Microsoft.DataTransformationServices.Controls, Version=17.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91"></property>
                 <property
                   dataType="System.Int32"
                   description="Specifies the column code page to use when code page information is unavailable from the data source."
@@ -2138,8 +2137,8 @@ WHERE NOT EXISTS (SELECT 1 FROM dbo.Dim_Reporter d WHERE d.reporter_name = s.rep
               <connections>
                 <connection
                   refId="Package\Load Dim_Reproducibility\Dim_Reproducibility.Connections[OleDbConnection]"
-                  connectionManagerID="{E26D47D4-EDBF-4061-B20D-14B0024B3278}:external"
-                  connectionManagerRefId="Project.ConnectionManagers[DW_Scribus connection]"
+                  connectionManagerID="{E26D47D4-EDBF-4061-B20D-14B0024B3278}:invalid"
+                  connectionManagerRefId="{E26D47D4-EDBF-4061-B20D-14B0024B3278}:invalid"
                   description="The OLE DB runtime connection used to access the database."
                   name="OleDbConnection" />
               </connections>
@@ -2223,7 +2222,7 @@ WHERE NOT EXISTS (SELECT 1 FROM dbo.Dim_Reporter d WHERE d.reporter_name = s.rep
                   dataType="System.String"
                   description="The SQL command to be executed."
                   name="SqlCommand"
-                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">SELECT DISTINCT s.reproducibility AS reproducibility_name
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor, Microsoft.DataTransformationServices.Controls, Version=17.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91">SELECT DISTINCT s.reproducibility AS reproducibility_name
 FROM silver.Ticket_Clean s
 WHERE NOT EXISTS (SELECT 1 FROM dbo.Dim_Reproducibility d WHERE d.reproducibility_name = s.reproducibility);</property>
                 <property
@@ -2251,8 +2250,8 @@ WHERE NOT EXISTS (SELECT 1 FROM dbo.Dim_Reproducibility d WHERE d.reproducibilit
               <connections>
                 <connection
                   refId="Package\Load Dim_Reproducibility\Read Silver.Connections[OleDbConnection]"
-                  connectionManagerID="{E26D47D4-EDBF-4061-B20D-14B0024B3278}:external"
-                  connectionManagerRefId="Project.ConnectionManagers[DW_Scribus connection]"
+                  connectionManagerID="{E26D47D4-EDBF-4061-B20D-14B0024B3278}:invalid"
+                  connectionManagerRefId="{E26D47D4-EDBF-4061-B20D-14B0024B3278}:invalid"
                   description="The OLE DB runtime connection used to access the database."
                   name="OleDbConnection" />
               </connections>
@@ -2359,7 +2358,7 @@ WHERE NOT EXISTS (SELECT 1 FROM dbo.Dim_Reproducibility d WHERE d.reproducibilit
                   dataType="System.String"
                   description="The SQL command to be executed."
                   name="SqlCommand"
-                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor"></property>
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor, Microsoft.DataTransformationServices.Controls, Version=17.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91"></property>
                 <property
                   dataType="System.Int32"
                   description="Specifies the column code page to use when code page information is unavailable from the data source."
@@ -2393,8 +2392,8 @@ WHERE NOT EXISTS (SELECT 1 FROM dbo.Dim_Reproducibility d WHERE d.reproducibilit
               <connections>
                 <connection
                   refId="Package\Load Dim_Resolution\Dim_Resolution.Connections[OleDbConnection]"
-                  connectionManagerID="{E26D47D4-EDBF-4061-B20D-14B0024B3278}:external"
-                  connectionManagerRefId="Project.ConnectionManagers[DW_Scribus connection]"
+                  connectionManagerID="{E26D47D4-EDBF-4061-B20D-14B0024B3278}:invalid"
+                  connectionManagerRefId="{E26D47D4-EDBF-4061-B20D-14B0024B3278}:invalid"
                   description="The OLE DB runtime connection used to access the database."
                   name="OleDbConnection" />
               </connections>
@@ -2478,7 +2477,7 @@ WHERE NOT EXISTS (SELECT 1 FROM dbo.Dim_Reproducibility d WHERE d.reproducibilit
                   dataType="System.String"
                   description="The SQL command to be executed."
                   name="SqlCommand"
-                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">SELECT DISTINCT s.resolution AS resolution_name
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor, Microsoft.DataTransformationServices.Controls, Version=17.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91">SELECT DISTINCT s.resolution AS resolution_name
 FROM silver.Ticket_Clean s
 WHERE NOT EXISTS (SELECT 1 FROM dbo.Dim_Resolution d WHERE d.resolution_name = s.resolution);</property>
                 <property
@@ -2506,8 +2505,8 @@ WHERE NOT EXISTS (SELECT 1 FROM dbo.Dim_Resolution d WHERE d.resolution_name = s
               <connections>
                 <connection
                   refId="Package\Load Dim_Resolution\Read Silver.Connections[OleDbConnection]"
-                  connectionManagerID="{E26D47D4-EDBF-4061-B20D-14B0024B3278}:external"
-                  connectionManagerRefId="Project.ConnectionManagers[DW_Scribus connection]"
+                  connectionManagerID="{E26D47D4-EDBF-4061-B20D-14B0024B3278}:invalid"
+                  connectionManagerRefId="{E26D47D4-EDBF-4061-B20D-14B0024B3278}:invalid"
                   description="The OLE DB runtime connection used to access the database."
                   name="OleDbConnection" />
               </connections>
@@ -2614,7 +2613,7 @@ WHERE NOT EXISTS (SELECT 1 FROM dbo.Dim_Resolution d WHERE d.resolution_name = s
                   dataType="System.String"
                   description="The SQL command to be executed."
                   name="SqlCommand"
-                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor"></property>
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor, Microsoft.DataTransformationServices.Controls, Version=17.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91"></property>
                 <property
                   dataType="System.Int32"
                   description="Specifies the column code page to use when code page information is unavailable from the data source."
@@ -2648,8 +2647,8 @@ WHERE NOT EXISTS (SELECT 1 FROM dbo.Dim_Resolution d WHERE d.resolution_name = s
               <connections>
                 <connection
                   refId="Package\Load Dim_Severity\Dim_Severity.Connections[OleDbConnection]"
-                  connectionManagerID="{E26D47D4-EDBF-4061-B20D-14B0024B3278}:external"
-                  connectionManagerRefId="Project.ConnectionManagers[DW_Scribus connection]"
+                  connectionManagerID="{E26D47D4-EDBF-4061-B20D-14B0024B3278}:invalid"
+                  connectionManagerRefId="{E26D47D4-EDBF-4061-B20D-14B0024B3278}:invalid"
                   description="The OLE DB runtime connection used to access the database."
                   name="OleDbConnection" />
               </connections>
@@ -2733,7 +2732,7 @@ WHERE NOT EXISTS (SELECT 1 FROM dbo.Dim_Resolution d WHERE d.resolution_name = s
                   dataType="System.String"
                   description="The SQL command to be executed."
                   name="SqlCommand"
-                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">SELECT DISTINCT s.severity AS severity_name
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor, Microsoft.DataTransformationServices.Controls, Version=17.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91">SELECT DISTINCT s.severity AS severity_name
 FROM silver.Ticket_Clean s
 WHERE NOT EXISTS (SELECT 1 FROM dbo.Dim_Severity d WHERE d.severity_name = s.severity);</property>
                 <property
@@ -2761,8 +2760,8 @@ WHERE NOT EXISTS (SELECT 1 FROM dbo.Dim_Severity d WHERE d.severity_name = s.sev
               <connections>
                 <connection
                   refId="Package\Load Dim_Severity\Read Silver.Connections[OleDbConnection]"
-                  connectionManagerID="{E26D47D4-EDBF-4061-B20D-14B0024B3278}:external"
-                  connectionManagerRefId="Project.ConnectionManagers[DW_Scribus connection]"
+                  connectionManagerID="{E26D47D4-EDBF-4061-B20D-14B0024B3278}:invalid"
+                  connectionManagerRefId="{E26D47D4-EDBF-4061-B20D-14B0024B3278}:invalid"
                   description="The OLE DB runtime connection used to access the database."
                   name="OleDbConnection" />
               </connections>
@@ -2869,7 +2868,7 @@ WHERE NOT EXISTS (SELECT 1 FROM dbo.Dim_Severity d WHERE d.severity_name = s.sev
                   dataType="System.String"
                   description="The SQL command to be executed."
                   name="SqlCommand"
-                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor"></property>
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor, Microsoft.DataTransformationServices.Controls, Version=17.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91"></property>
                 <property
                   dataType="System.Int32"
                   description="Specifies the column code page to use when code page information is unavailable from the data source."
@@ -2903,8 +2902,8 @@ WHERE NOT EXISTS (SELECT 1 FROM dbo.Dim_Severity d WHERE d.severity_name = s.sev
               <connections>
                 <connection
                   refId="Package\Load Dim_Status\Dim_Status.Connections[OleDbConnection]"
-                  connectionManagerID="{E26D47D4-EDBF-4061-B20D-14B0024B3278}:external"
-                  connectionManagerRefId="Project.ConnectionManagers[DW_Scribus connection]"
+                  connectionManagerID="{E26D47D4-EDBF-4061-B20D-14B0024B3278}:invalid"
+                  connectionManagerRefId="{E26D47D4-EDBF-4061-B20D-14B0024B3278}:invalid"
                   description="The OLE DB runtime connection used to access the database."
                   name="OleDbConnection" />
               </connections>
@@ -2992,7 +2991,7 @@ WHERE NOT EXISTS (SELECT 1 FROM dbo.Dim_Severity d WHERE d.severity_name = s.sev
                   dataType="System.String"
                   description="The SQL command to be executed."
                   name="SqlCommand"
-                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">SELECT DISTINCT s.status AS status_name
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor, Microsoft.DataTransformationServices.Controls, Version=17.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91">SELECT DISTINCT s.status AS status_name
 FROM silver.Ticket_Clean s
 WHERE NOT EXISTS (SELECT 1 FROM dbo.Dim_Status d WHERE d.status_name = s.status);</property>
                 <property
@@ -3020,8 +3019,8 @@ WHERE NOT EXISTS (SELECT 1 FROM dbo.Dim_Status d WHERE d.status_name = s.status)
               <connections>
                 <connection
                   refId="Package\Load Dim_Status\Read Silver.Connections[OleDbConnection]"
-                  connectionManagerID="{E26D47D4-EDBF-4061-B20D-14B0024B3278}:external"
-                  connectionManagerRefId="Project.ConnectionManagers[DW_Scribus connection]"
+                  connectionManagerID="{E26D47D4-EDBF-4061-B20D-14B0024B3278}:invalid"
+                  connectionManagerRefId="{E26D47D4-EDBF-4061-B20D-14B0024B3278}:invalid"
                   description="The OLE DB runtime connection used to access the database."
                   name="OleDbConnection" />
               </connections>
@@ -3128,7 +3127,7 @@ WHERE NOT EXISTS (SELECT 1 FROM dbo.Dim_Status d WHERE d.status_name = s.status)
                   dataType="System.String"
                   description="The SQL command to be executed."
                   name="SqlCommand"
-                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor"></property>
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor, Microsoft.DataTransformationServices.Controls, Version=17.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91"></property>
                 <property
                   dataType="System.Int32"
                   description="Specifies the column code page to use when code page information is unavailable from the data source."
@@ -3162,8 +3161,8 @@ WHERE NOT EXISTS (SELECT 1 FROM dbo.Dim_Status d WHERE d.status_name = s.status)
               <connections>
                 <connection
                   refId="Package\Load Dim_Ticket\Insert Destination.Connections[OleDbConnection]"
-                  connectionManagerID="{E26D47D4-EDBF-4061-B20D-14B0024B3278}:external"
-                  connectionManagerRefId="Project.ConnectionManagers[DW_Scribus connection]"
+                  connectionManagerID="{E26D47D4-EDBF-4061-B20D-14B0024B3278}:invalid"
+                  connectionManagerRefId="{E26D47D4-EDBF-4061-B20D-14B0024B3278}:invalid"
                   description="The OLE DB runtime connection used to access the database."
                   name="OleDbConnection" />
               </connections>
@@ -3302,7 +3301,7 @@ WHERE NOT EXISTS (SELECT 1 FROM dbo.Dim_Status d WHERE d.status_name = s.status)
                   description="The SQL command to be executed."
                   expressionType="Notify"
                   name="SqlCommand"
-                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">UPDATE [dbo].[Dim_Ticket] SET [age_open] = ?,[age_resolution] = ?,[date_resolution_key] = ?,[summary] = ?,[view_status] = ? WHERE [ticket_id] = ?</property>
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor, Microsoft.DataTransformationServices.Controls, Version=17.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91">UPDATE [dbo].[Dim_Ticket] SET [age_open] = ?,[age_resolution] = ?,[date_resolution_key] = ?,[summary] = ?,[view_status] = ? WHERE [ticket_id] = ?</property>
                 <property
                   dataType="System.Int32"
                   description="Specifies the column code page to use when code page information is unavailable from the data source."
@@ -3311,8 +3310,8 @@ WHERE NOT EXISTS (SELECT 1 FROM dbo.Dim_Status d WHERE d.status_name = s.status)
               <connections>
                 <connection
                   refId="Package\Load Dim_Ticket\OLE DB Command.Connections[OleDbConnection]"
-                  connectionManagerID="{E26D47D4-EDBF-4061-B20D-14B0024B3278}:external"
-                  connectionManagerRefId="Project.ConnectionManagers[DW_Scribus connection]"
+                  connectionManagerID="{E26D47D4-EDBF-4061-B20D-14B0024B3278}:invalid"
+                  connectionManagerRefId="{E26D47D4-EDBF-4061-B20D-14B0024B3278}:invalid"
                   description="The OLE DB runtime connection used to access the database."
                   name="OleDbConnection" />
               </connections>
@@ -3493,7 +3492,7 @@ WHERE NOT EXISTS (SELECT 1 FROM dbo.Dim_Status d WHERE d.status_name = s.status)
                   dataType="System.String"
                   description="The SQL command to be executed."
                   name="SqlCommand"
-                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">SELECT
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor, Microsoft.DataTransformationServices.Controls, Version=17.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91">SELECT
     s.ticket_id,
     s.summary,
     s.view_status,
@@ -3536,8 +3535,8 @@ WHERE s.date_loaded = (SELECT MAX(date_loaded) FROM silver.Ticket_Clean);</prope
               <connections>
                 <connection
                   refId="Package\Load Dim_Ticket\Read Silver.Connections[OleDbConnection]"
-                  connectionManagerID="{E26D47D4-EDBF-4061-B20D-14B0024B3278}:external"
-                  connectionManagerRefId="Project.ConnectionManagers[DW_Scribus connection]"
+                  connectionManagerID="{E26D47D4-EDBF-4061-B20D-14B0024B3278}:invalid"
+                  connectionManagerRefId="{E26D47D4-EDBF-4061-B20D-14B0024B3278}:invalid"
                   description="The OLE DB runtime connection used to access the database."
                   name="OleDbConnection" />
               </connections>
@@ -3717,7 +3716,7 @@ WHERE s.date_loaded = (SELECT MAX(date_loaded) FROM silver.Ticket_Clean);</prope
                   dataType="System.String"
                   description="Specifies the SELECT statement used to create a schema rowset."
                   name="SqlCommand"
-                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">SELECT [age_open], [age_resolution], [date_resolution_key], [date_submitted_key], [summary], [ticket_id], [view_status] FROM [dbo].[Dim_Ticket]</property>
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor, Microsoft.DataTransformationServices.Controls, Version=17.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91">SELECT [age_open], [age_resolution], [date_resolution_key], [date_submitted_key], [summary], [ticket_id], [view_status] FROM [dbo].[Dim_Ticket]</property>
                 <property
                   dataType="System.String"
                   description="Specifies the WHERE clause in the SELECT statement that selects the current row among rows with identical business keys."
@@ -3755,8 +3754,8 @@ WHERE s.date_loaded = (SELECT MAX(date_loaded) FROM silver.Ticket_Clean);</prope
               <connections>
                 <connection
                   refId="Package\Load Dim_Ticket\Slowly Changing Dimension.Connections[LookupConnection]"
-                  connectionManagerID="{E26D47D4-EDBF-4061-B20D-14B0024B3278}:external"
-                  connectionManagerRefId="Project.ConnectionManagers[DW_Scribus connection]"
+                  connectionManagerID="{E26D47D4-EDBF-4061-B20D-14B0024B3278}:invalid"
+                  connectionManagerRefId="{E26D47D4-EDBF-4061-B20D-14B0024B3278}:invalid"
                   description="Defines the connection to use for lookups in the dimension table"
                   name="LookupConnection" />
               </connections>
@@ -4005,7 +4004,7 @@ WHERE s.date_loaded = (SELECT MAX(date_loaded) FROM silver.Ticket_Clean);</prope
                   dataType="System.String"
                   description="The SQL command to be executed."
                   name="SqlCommand"
-                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor"></property>
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor, Microsoft.DataTransformationServices.Controls, Version=17.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91"></property>
                 <property
                   dataType="System.Int32"
                   description="Specifies the column code page to use when code page information is unavailable from the data source."
@@ -4039,8 +4038,8 @@ WHERE s.date_loaded = (SELECT MAX(date_loaded) FROM silver.Ticket_Clean);</prope
               <connections>
                 <connection
                   refId="Package\Load Dim_Version\Dim_Version.Connections[OleDbConnection]"
-                  connectionManagerID="{E26D47D4-EDBF-4061-B20D-14B0024B3278}:external"
-                  connectionManagerRefId="Project.ConnectionManagers[DW_Scribus connection]"
+                  connectionManagerID="{E26D47D4-EDBF-4061-B20D-14B0024B3278}:invalid"
+                  connectionManagerRefId="{E26D47D4-EDBF-4061-B20D-14B0024B3278}:invalid"
                   description="The OLE DB runtime connection used to access the database."
                   name="OleDbConnection" />
               </connections>
@@ -4124,7 +4123,7 @@ WHERE s.date_loaded = (SELECT MAX(date_loaded) FROM silver.Ticket_Clean);</prope
                   dataType="System.String"
                   description="The SQL command to be executed."
                   name="SqlCommand"
-                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">SELECT v.version_name
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor, Microsoft.DataTransformationServices.Controls, Version=17.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91">SELECT v.version_name
 FROM (SELECT product_version AS version_name FROM silver.Ticket_Clean
       UNION
       SELECT fixed_in_version FROM silver.Ticket_Clean) v
@@ -4154,8 +4153,8 @@ WHERE NOT EXISTS (SELECT 1 FROM dbo.Dim_Version d WHERE d.version_name = v.versi
               <connections>
                 <connection
                   refId="Package\Load Dim_Version\Read Silver.Connections[OleDbConnection]"
-                  connectionManagerID="{E26D47D4-EDBF-4061-B20D-14B0024B3278}:external"
-                  connectionManagerRefId="Project.ConnectionManagers[DW_Scribus connection]"
+                  connectionManagerID="{E26D47D4-EDBF-4061-B20D-14B0024B3278}:invalid"
+                  connectionManagerRefId="{E26D47D4-EDBF-4061-B20D-14B0024B3278}:invalid"
                   description="The OLE DB runtime connection used to access the database."
                   name="OleDbConnection" />
               </connections>
@@ -4262,7 +4261,7 @@ WHERE NOT EXISTS (SELECT 1 FROM dbo.Dim_Version d WHERE d.version_name = v.versi
                   dataType="System.String"
                   description="The SQL command to be executed."
                   name="SqlCommand"
-                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor"></property>
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor, Microsoft.DataTransformationServices.Controls, Version=17.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91"></property>
                 <property
                   dataType="System.Int32"
                   description="Specifies the column code page to use when code page information is unavailable from the data source."
@@ -4296,8 +4295,8 @@ WHERE NOT EXISTS (SELECT 1 FROM dbo.Dim_Version d WHERE d.version_name = v.versi
               <connections>
                 <connection
                   refId="Package\Load Fact_Ticket_Snapshot\Fact_Ticket_Snapshot.Connections[OleDbConnection]"
-                  connectionManagerID="{E26D47D4-EDBF-4061-B20D-14B0024B3278}:external"
-                  connectionManagerRefId="Project.ConnectionManagers[DW_Scribus connection]"
+                  connectionManagerID="{E26D47D4-EDBF-4061-B20D-14B0024B3278}:invalid"
+                  connectionManagerRefId="{E26D47D4-EDBF-4061-B20D-14B0024B3278}:invalid"
                   description="The OLE DB runtime connection used to access the database."
                   name="OleDbConnection" />
               </connections>
@@ -4529,7 +4528,7 @@ WHERE NOT EXISTS (SELECT 1 FROM dbo.Dim_Version d WHERE d.version_name = v.versi
                   dataType="System.String"
                   description="The SQL command to be executed."
                   name="SqlCommand"
-                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">SELECT
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor, Microsoft.DataTransformationServices.Controls, Version=17.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91">SELECT
     t.ticket_key,
     CONVERT(INT, CONVERT(CHAR(8), s.date_loaded, 112)) AS date_loaded_key,
     CONVERT(INT, CONVERT(CHAR(8), s.updated, 112))     AS date_updated_key,
@@ -4590,8 +4589,8 @@ WHERE s.date_loaded = (SELECT MAX(date_loaded) FROM silver.Ticket_Clean)
               <connections>
                 <connection
                   refId="Package\Load Fact_Ticket_Snapshot\Read Silver.Connections[OleDbConnection]"
-                  connectionManagerID="{E26D47D4-EDBF-4061-B20D-14B0024B3278}:external"
-                  connectionManagerRefId="Project.ConnectionManagers[DW_Scribus connection]"
+                  connectionManagerID="{E26D47D4-EDBF-4061-B20D-14B0024B3278}:invalid"
+                  connectionManagerRefId="{E26D47D4-EDBF-4061-B20D-14B0024B3278}:invalid"
                   description="The OLE DB runtime connection used to access the database."
                   name="OleDbConnection" />
               </connections>
@@ -5061,7 +5060,7 @@ WHERE s.date_loaded = (SELECT MAX(date_loaded) FROM silver.Ticket_Clean)
                   dataType="System.String"
                   description="The SQL command to be executed."
                   name="SqlCommand"
-                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor"></property>
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor, Microsoft.DataTransformationServices.Controls, Version=17.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91"></property>
                 <property
                   dataType="System.Int32"
                   description="Specifies the column code page to use when code page information is unavailable from the data source."
@@ -5095,8 +5094,8 @@ WHERE s.date_loaded = (SELECT MAX(date_loaded) FROM silver.Ticket_Clean)
               <connections>
                 <connection
                   refId="Package\Load ODS\Insert ODS.Connections[OleDbConnection]"
-                  connectionManagerID="{E26D47D4-EDBF-4061-B20D-14B0024B3278}:external"
-                  connectionManagerRefId="Project.ConnectionManagers[DW_Scribus connection]"
+                  connectionManagerID="{E26D47D4-EDBF-4061-B20D-14B0024B3278}:invalid"
+                  connectionManagerRefId="{E26D47D4-EDBF-4061-B20D-14B0024B3278}:invalid"
                   description="The OLE DB runtime connection used to access the database."
                   name="OleDbConnection" />
               </connections>
@@ -6213,6 +6212,32 @@ WHERE s.date_loaded = (SELECT MAX(date_loaded) FROM silver.Ticket_Clean)
           Size="130.5,42"
           Id="Package\Load Silver"
           TopLeft="102,295" />
+        <NodeLayout
+          Size="143,42"
+          Id="Package\Prepare week"
+          TopLeft="96,110.5" />
+        <EdgeLayout
+          Id="Package.PrecedenceConstraints[Constraint]"
+          TopLeft="166.375,152.5">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,50"
+              Start="0,0"
+              End="0,42.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,42.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint 10]"
           TopLeft="638.125,72.5">
@@ -6535,32 +6560,6 @@ WHERE s.date_loaded = (SELECT MAX(date_loaded) FROM silver.Ticket_Clean)
                   Capacity="5">
                   <mssgle:LineSegment
                     End="66,0" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <NodeLayout
-          Size="143,42"
-          Id="Package\Prepare week"
-          TopLeft="96,110.5" />
-        <EdgeLayout
-          Id="Package.PrecedenceConstraints[Constraint]"
-          TopLeft="166.375,152.5">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,50"
-              Start="0,0"
-              End="0,42.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,42.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
