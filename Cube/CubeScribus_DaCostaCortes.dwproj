@@ -6,10 +6,107 @@
     <Name>ProjectDaCostaCortes.database</Name>
     <FullPath>ProjectDaCostaCortes.database</FullPath>
   </Database>
+  <Cubes>
+    <ProjectItem>
+      <Name>Cube_Scribus.cube</Name>
+      <FullPath>Cube_Scribus.cube</FullPath>
+      <Dependencies>
+        <ProjectItem>
+          <Name>Cube_Scribus.partitions</Name>
+          <FullPath>Cube_Scribus.partitions</FullPath>
+        </ProjectItem>
+      </Dependencies>
+    </ProjectItem>
+  </Cubes>
+  <Dimensions>
+    <ProjectItem>
+      <Name>Dim Severity.dim</Name>
+      <FullPath>Dim Severity.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Dim Assigned To.dim</Name>
+      <FullPath>Dim Assigned To.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Dim OS.dim</Name>
+      <FullPath>Dim OS.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Dim Reporter.dim</Name>
+      <FullPath>Dim Reporter.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Dim Date.dim</Name>
+      <FullPath>Dim Date.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Dim Priority.dim</Name>
+      <FullPath>Dim Priority.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Dim Status.dim</Name>
+      <FullPath>Dim Status.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Dim Resolution.dim</Name>
+      <FullPath>Dim Resolution.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Dim Project.dim</Name>
+      <FullPath>Dim Project.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Dim Platform.dim</Name>
+      <FullPath>Dim Platform.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Dim Version.dim</Name>
+      <FullPath>Dim Version.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Dim Reproducibility.dim</Name>
+      <FullPath>Dim Reproducibility.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Dim Category.dim</Name>
+      <FullPath>Dim Category.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Dim Ticket.dim</Name>
+      <FullPath>Dim Ticket.dim</FullPath>
+    </ProjectItem>
+  </Dimensions>
+  <DataSources>
+    <ProjectItem>
+      <Name>DW Scribus.ds</Name>
+      <FullPath>DW Scribus.ds</FullPath>
+    </ProjectItem>
+  </DataSources>
+  <DataSourceViews>
+    <ProjectItem>
+      <Name>DW Scribus.dsv</Name>
+      <FullPath>DW Scribus.dsv</FullPath>
+    </ProjectItem>
+  </DataSourceViews>
   <Configurations>
     <Configuration>
       <Name>Development</Name>
-      <Options />
+      <Options>
+        <ConnectionMappings>
+          <ConfigurationSetting>
+            <Id>DW Scribus</Id>
+            <Name>DW Scribus</Name>
+            <Value xsi:type="xsd:string">Provider=SQLNCLI11.1;Data Source=localhost;Persist Security Info=True;Password=;User ID=;Initial Catalog=DW_Scribus</Value>
+          </ConfigurationSetting>
+        </ConnectionMappings>
+        <ConnectionSecurityMappings>
+          <ConfigurationSetting>
+            <Id>DW Scribus</Id>
+            <Name>DW Scribus</Name>
+            <Value xsi:type="xsd:int">1</Value>
+          </ConfigurationSetting>
+        </ConnectionSecurityMappings>
+      </Options>
     </Configuration>
   </Configurations>
 </Project>
