@@ -1,4 +1,4 @@
-﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="250664ac-dda5-46c0-b441-2696ef0d09ec" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="ade3f315-87d2-4871-8b7a-00450ae1465b" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
   <ID>Cube_Scribus</ID>
   <Name>Cube_Scribus</Name>
   <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
@@ -8,7 +8,7 @@
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
       <Value>
         <dds xmlns="">
-          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="68" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-4233" scrolltop="348" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="25916" y="19579" backcolor="16777215" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="68" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-4233" scrolltop="348" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="26577" y="19579" backcolor="16777215" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
             <font>
               <ddsxmlobjectstreamwrapper binary="0100000090019e330100065461686f6d61" />
             </font>
@@ -573,303 +573,321 @@
   <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
   <State>Unprocessed</State>
   <Dimensions>
-    <Dimension dwd:design-time-name="e0cc5157-5bcd-4ea9-b71f-326409ec9688">
+    <Dimension dwd:design-time-name="d70bfa6b-b18c-402a-b008-78fc03b930ce">
       <ID>Dim Severity</ID>
       <Name>Dim Severity</Name>
       <DimensionID>Dim Severity</DimensionID>
       <Attributes>
-        <Attribute dwd:design-time-name="03b9a61e-e932-450b-9a82-45b5b65d83c1">
+        <Attribute dwd:design-time-name="88cee5cd-fca1-4479-9b90-1a92382cd439">
           <AttributeID>Severity Key</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="9159b5a6-ea75-41a6-b81c-f800da7502a6">
+        <Attribute dwd:design-time-name="5e8d20b8-65eb-49d8-a099-49e640cd1ec3">
           <AttributeID>Severity Name</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="d1db7d4f-6d4f-4ae6-b1c5-2272f24e3d79">
+          <AttributeID>Severity Order</AttributeID>
         </Attribute>
       </Attributes>
     </Dimension>
-    <Dimension dwd:design-time-name="c1a0c6d7-d759-4cbb-8d47-6e085aa6d4e5">
+    <Dimension dwd:design-time-name="fdfc52dc-4cdc-41ad-ae52-715a077875d3">
       <ID>Dim Assigned To</ID>
       <Name>Dim Assigned To</Name>
       <DimensionID>Dim Assigned To</DimensionID>
       <Attributes>
-        <Attribute dwd:design-time-name="1eaf6cca-453b-4aa6-9e04-56729516c6fb">
+        <Attribute dwd:design-time-name="843a8878-5355-420b-9a1d-19122bbe0fab">
           <AttributeID>Assigned To Key</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="86807d0b-9d42-44d4-80b4-37af26fc442c">
+        <Attribute dwd:design-time-name="e67b5e29-9ac3-4adc-85f2-966f204c86d6">
           <AttributeID>Assigned To Name</AttributeID>
         </Attribute>
       </Attributes>
     </Dimension>
-    <Dimension dwd:design-time-name="c4e3dde3-d2ef-4d10-8e2a-efdc0250705a">
+    <Dimension dwd:design-time-name="125e5534-8e6c-43f4-be30-7433922d2bb7">
       <ID>Dim Reporter</ID>
       <Name>Dim Reporter</Name>
       <DimensionID>Dim Reporter</DimensionID>
       <Attributes>
-        <Attribute dwd:design-time-name="d19d7afc-2556-440c-84d6-c525d0a140dd">
+        <Attribute dwd:design-time-name="c5b7a2a1-01e3-45b8-9e22-b4f3384a06a7">
           <AttributeID>Reporter Key</AttributeID>
         </Attribute>
       </Attributes>
     </Dimension>
-    <Dimension dwd:design-time-name="1f292ac7-b543-412b-a30c-c9e6c783b75c">
+    <Dimension dwd:design-time-name="ad05c337-e67d-4eb6-b391-a74de4f9364d">
       <ID>Date Updated</ID>
       <Name>Date Updated</Name>
       <DimensionID>Dim Date</DimensionID>
       <Attributes>
-        <Attribute dwd:design-time-name="79fb722d-1812-44c5-b176-39ae66f539c1">
+        <Attribute dwd:design-time-name="357153a7-98ef-4898-a9fe-a62b0a09a2be">
           <AttributeID>Date Key</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="fc591938-326d-4c16-ba19-bde3cfa2ae0f">
+        <Attribute dwd:design-time-name="6e07ab99-3858-45b2-934e-256143acbe13">
           <AttributeID>Full Date</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="70a753ae-d777-403b-8b04-69d82b31aab5">
+        <Attribute dwd:design-time-name="8444afdf-9ac5-4ee2-a375-d77907ae9212">
           <AttributeID>Year</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="b2ea6aab-f3b4-43d2-8706-7c23b8ae6f19">
+        <Attribute dwd:design-time-name="9297c255-3a5b-4624-bbb1-ff081205086b">
           <AttributeID>Month</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="26ba8f11-01eb-4089-87a5-64ea167f9249">
+        <Attribute dwd:design-time-name="28ae2542-d2fc-42b0-842e-b024a8a23662">
           <AttributeID>Iso Year</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="cfa72abc-c0e0-4b7b-babf-fdc7718ee02e">
+        <Attribute dwd:design-time-name="e22cca98-e362-4342-8374-907de237ec05">
           <AttributeID>Week</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="03da167e-9b37-4fd7-9e51-7dafc46aedd3">
+        <Attribute dwd:design-time-name="fd674259-5773-48a1-a5c5-39b7df5fd6a0">
           <AttributeID>Day</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="45ea88af-ba91-4926-9305-b71ab8e8e94c">
+        <Attribute dwd:design-time-name="d1a607c8-7228-4447-b0c7-e1fba91e5a70">
           <AttributeID>Month Name</AttributeID>
         </Attribute>
       </Attributes>
     </Dimension>
-    <Dimension dwd:design-time-name="e00e64b1-bd09-44cd-ac19-29bb6d5682b6">
+    <Dimension dwd:design-time-name="56e55207-b334-4312-b9e4-43216515c817">
       <ID>Dim Priority</ID>
       <Name>Dim Priority</Name>
       <DimensionID>Dim Priority</DimensionID>
       <Attributes>
-        <Attribute dwd:design-time-name="137cddb9-b150-44dc-b698-974ea3a73962">
+        <Attribute dwd:design-time-name="1bc8e8d2-ed1e-4b27-88aa-ef4a321b2988">
           <AttributeID>Priority Key</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="4a0e317d-d80e-4a69-86da-6b712a5a1c26">
+        <Attribute dwd:design-time-name="fc6fdd01-e702-4a14-87df-9a5c6587f0ab">
           <AttributeID>Priority Name</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="a3a1bf82-3363-4d3a-808a-f7f6b7a4abee">
+          <AttributeID>Priority Order</AttributeID>
         </Attribute>
       </Attributes>
     </Dimension>
-    <Dimension dwd:design-time-name="5889148c-d119-4dc4-ad65-1e15322ffe24">
+    <Dimension dwd:design-time-name="049b2319-8135-4ce0-b4dd-665c1451f841">
       <ID>Dim Status</ID>
       <Name>Dim Status</Name>
       <DimensionID>Dim Status</DimensionID>
       <Attributes>
-        <Attribute dwd:design-time-name="4d7541e8-f927-49b9-b55f-5c8ad3ae6774">
+        <Attribute dwd:design-time-name="fd3257f9-5a18-4426-9f1e-7cbaffe0cc91">
           <AttributeID>Status Key</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="eeadd12a-ad38-4dea-a744-10460922d8cb">
+        <Attribute dwd:design-time-name="65da7224-b872-4e4d-b488-3fad61866308">
           <AttributeID>Status Group</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="7d8ac135-b78e-44b8-ac68-58140cd5028d">
+        <Attribute dwd:design-time-name="a9ad58ba-a7a6-4241-9aec-a23cea906612">
           <AttributeID>Status Name</AttributeID>
         </Attribute>
       </Attributes>
     </Dimension>
-    <Dimension dwd:design-time-name="5b8195b9-64b6-43cf-86bf-32bfd8b67fb7">
+    <Dimension dwd:design-time-name="61a203ec-b4c3-4094-a182-e3f8ce6872cf">
       <ID>Date Loaded</ID>
       <Name>Date Loaded</Name>
       <DimensionID>Dim Date</DimensionID>
       <Attributes>
-        <Attribute dwd:design-time-name="e7efaf89-657d-49ad-b366-9f02f456ec3d">
+        <Attribute dwd:design-time-name="aa0aa206-0dab-4fbc-80eb-3fdb6ccf8f78">
           <AttributeID>Date Key</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="8f0cdb4f-2a83-4ac0-9f71-5b66f2f6e48c">
+        <Attribute dwd:design-time-name="1267233d-0c9b-4c29-9626-1965815cd5a7">
           <AttributeID>Full Date</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="4c62a5e1-8d3e-4528-a288-e7bc46cfda3a">
+        <Attribute dwd:design-time-name="01bb704a-0221-4856-86ab-ee548c89ef67">
           <AttributeID>Year</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="a6e90d56-783e-4ec9-a59e-60c836dcaa25">
+        <Attribute dwd:design-time-name="4a67353f-f26e-4209-bb48-f7a3d74802d4">
           <AttributeID>Month</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="f3eabf25-c8de-4f2f-87dd-83f15369ef18">
+        <Attribute dwd:design-time-name="647b8cae-2667-49f3-9171-e21f2241798c">
           <AttributeID>Iso Year</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="ed9e17a5-9815-428a-8223-630ed67647df">
+        <Attribute dwd:design-time-name="c00beac6-bf4e-4bef-a158-0873eb39ab75">
           <AttributeID>Week</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="2942630a-7c4e-4046-be21-d82ed4a7f1f8">
+        <Attribute dwd:design-time-name="7b0c3fc3-5eb7-436d-8f26-86a566021ed2">
           <AttributeID>Day</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="91013cee-8ed1-42e9-adf3-8f06fbab60d6">
+        <Attribute dwd:design-time-name="eac8a131-0fa3-457d-9eef-495a24aa8714">
           <AttributeID>Month Name</AttributeID>
         </Attribute>
       </Attributes>
     </Dimension>
-    <Dimension dwd:design-time-name="b83811fd-b220-4b77-8ac8-73626fbde4ec">
+    <Dimension dwd:design-time-name="68f95b09-ff59-49ae-a175-4cb03fcc48d0">
       <ID>Dim Resolution</ID>
       <Name>Dim Resolution</Name>
       <DimensionID>Dim Resolution</DimensionID>
       <Attributes>
-        <Attribute dwd:design-time-name="af03b38c-98d8-4589-80eb-c080a9c8f839">
+        <Attribute dwd:design-time-name="5684c067-77b6-4ae4-81c1-55e5c51d9813">
           <AttributeID>Resolution Key</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="8cef4771-ed52-465c-804c-4767a064a114">
+          <AttributeID>Resolution Name</AttributeID>
         </Attribute>
       </Attributes>
     </Dimension>
-    <Dimension dwd:design-time-name="1ffdc38a-d58c-4479-8e78-ccf3e2a0434a">
+    <Dimension dwd:design-time-name="736b09c9-ed78-47b2-8f04-1d8e243dd7ce">
       <ID>Dim Project</ID>
       <Name>Dim Project</Name>
       <DimensionID>Dim Project</DimensionID>
       <Attributes>
-        <Attribute dwd:design-time-name="53a7ce4f-b91a-4c8d-892e-20da45626042">
+        <Attribute dwd:design-time-name="b354569e-bba3-4672-b873-749f1c6d5b6d">
           <AttributeID>Project Key</AttributeID>
         </Attribute>
       </Attributes>
     </Dimension>
-    <Dimension dwd:design-time-name="9587413b-398c-45b4-bd5f-333777880b83">
+    <Dimension dwd:design-time-name="151baa70-5738-407a-b676-6947a20b3979">
       <ID>Dim Reproducibility</ID>
       <Name>Dim Reproducibility</Name>
       <DimensionID>Dim Reproducibility</DimensionID>
       <Attributes>
-        <Attribute dwd:design-time-name="9da9688b-a0e1-44e6-931d-3213fc2c885f">
+        <Attribute dwd:design-time-name="3e578ccd-19f2-4170-800c-f815c24211b2">
           <AttributeID>Reproducibility Key</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="0f05a601-7f00-4724-a64f-deae41c6c805">
+        <Attribute dwd:design-time-name="0302a59f-f59e-41d1-8690-7fb542e16fae">
           <AttributeID>Reproducibility Name</AttributeID>
         </Attribute>
       </Attributes>
     </Dimension>
-    <Dimension dwd:design-time-name="fe031c24-e52d-49f5-851d-f1dcfd442ee5">
+    <Dimension dwd:design-time-name="ce76c9db-ef49-45c9-b727-f999385a8b13">
       <ID>Dim Category</ID>
       <Name>Dim Category</Name>
       <DimensionID>Dim Category</DimensionID>
       <Attributes>
-        <Attribute dwd:design-time-name="4c176530-1977-4ec8-b085-935f0203831e">
+        <Attribute dwd:design-time-name="a80903be-cb64-44ae-ae14-c743d75752c9">
           <AttributeID>Category Key</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="616eacae-64f6-465d-8ee0-dfbba28478a2">
+        <Attribute dwd:design-time-name="0c6cf711-86d2-4679-a932-1df904d8e269">
           <AttributeID>Category Name</AttributeID>
         </Attribute>
       </Attributes>
     </Dimension>
-    <Dimension dwd:design-time-name="8a66c082-8f60-420a-b474-36ddc7392a7c">
+    <Dimension dwd:design-time-name="5cda843c-a628-46cc-b8dd-4ca8bdb4446f">
       <ID>Dim Ticket</ID>
       <Name>Dim Ticket</Name>
       <DimensionID>Dim Ticket</DimensionID>
       <Attributes>
-        <Attribute dwd:design-time-name="89027973-7045-4cf1-8255-7a78754d0bdb">
+        <Attribute dwd:design-time-name="1c96a739-4344-49ac-9dca-4754367ffbad">
           <AttributeID>Ticket Key</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="66a0a134-084d-4957-a5fd-d1e243c20517">
+        <Attribute dwd:design-time-name="f2f8eaa1-798b-4b0a-8778-c865d25c54c9">
           <AttributeID>Date Submitted Key</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="89c54d6f-f599-4e30-8b49-0f7888f48113">
+        <Attribute dwd:design-time-name="6969069e-467f-484f-93fc-093006fe86f6">
           <AttributeID>Date Resolution Key</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="c64a61ac-2da8-49d7-bee8-f9cfdf7335e1">
+        <Attribute dwd:design-time-name="0c7172e9-bfaf-4b60-a6fc-4c09318f7bcf">
           <AttributeID>Age Bucket</AttributeID>
         </Attribute>
       </Attributes>
     </Dimension>
-    <Dimension dwd:design-time-name="02ee63ce-e74a-4aaf-9ee8-548f589eeecd">
+    <Dimension dwd:design-time-name="06beafba-8caa-45e3-bd0d-139086f67730">
       <ID>Dim Ticket - Date Submitted</ID>
       <Name>Dim Ticket - Date Submitted</Name>
       <DimensionID>Dim Date</DimensionID>
       <Attributes>
-        <Attribute dwd:design-time-name="80d2dd3a-76e8-4095-8a26-fb0d2ab30953">
+        <Attribute dwd:design-time-name="188bfabf-e91c-491b-8c36-b8fd9c0e9197">
           <AttributeID>Date Key</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="6b962085-5802-4591-9504-d451589ff825">
+        <Attribute dwd:design-time-name="0cf77ff2-67de-40ac-b829-87526746fdd7">
           <AttributeID>Full Date</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="d3766293-3f75-44e8-93be-67dd4dfb0bf9">
+        <Attribute dwd:design-time-name="7ae1de3a-e993-4469-b61f-7218f4d20fce">
           <AttributeID>Year</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="a7ef5366-5b2c-4c55-aafb-1a6abfcac007">
+        <Attribute dwd:design-time-name="74140c65-7a16-41d1-ad9d-50a8854ea109">
           <AttributeID>Month</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="376bb1af-ff6d-4d0e-b976-ce683fa23aba">
+        <Attribute dwd:design-time-name="b8b9dc83-64bb-4ebd-8e04-f9ad21c25d2f">
           <AttributeID>Iso Year</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="ca7cfa2e-4b48-438a-be79-cafaaa5c9eb5">
+        <Attribute dwd:design-time-name="518efbac-8428-433e-ab0d-8a0ec7790752">
           <AttributeID>Week</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="ee83d645-611c-4282-b9d6-4859b72adf61">
+        <Attribute dwd:design-time-name="66634c26-3792-4dbf-b43d-5a10b0a015d8">
           <AttributeID>Day</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="29951725-72bd-4767-a305-b5b194276dea">
+        <Attribute dwd:design-time-name="54db36a6-05d4-4cc2-af20-870e061503c7">
           <AttributeID>Month Name</AttributeID>
         </Attribute>
       </Attributes>
     </Dimension>
-    <Dimension dwd:design-time-name="e7f8bf11-f610-40ec-a7e5-31ee6f36de17">
+    <Dimension dwd:design-time-name="875eecc9-ba87-45ed-9cc0-4c7965ccc5bd">
       <ID>Dim Ticket - Date Resolution</ID>
       <Name>Dim Ticket - Date Resolution</Name>
       <DimensionID>Dim Date</DimensionID>
       <Attributes>
-        <Attribute dwd:design-time-name="3db2b722-098c-4312-97c6-dda9db1e2f68">
+        <Attribute dwd:design-time-name="6f962e59-eb01-45e8-8057-49089add348c">
           <AttributeID>Date Key</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="c91d2836-26e2-43a7-9946-62d2ac3da634">
+        <Attribute dwd:design-time-name="a9cda57e-656e-4727-a969-c76dbfd8a272">
           <AttributeID>Full Date</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="8379a1dd-d27b-4e4c-b07c-b3f0c50703de">
+        <Attribute dwd:design-time-name="5c9e6d59-627d-4e4b-8db9-cb69a552b010">
           <AttributeID>Year</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="304089ed-71a5-4a11-9ca5-c69198a5f66a">
+        <Attribute dwd:design-time-name="e9c51c2d-8296-45dd-9b8f-f4cbad7e7fec">
           <AttributeID>Month</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="66ab7868-4c9a-42f5-9327-fea529960bed">
+        <Attribute dwd:design-time-name="30cf8669-eee3-4491-a4c0-9d2497dae6b8">
           <AttributeID>Iso Year</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="728700d2-be8c-4a0e-8ef6-df85211ac672">
+        <Attribute dwd:design-time-name="781aefa7-0a99-42a3-a6bf-d81b0cd9c249">
           <AttributeID>Week</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="62acc2fa-be03-4afb-a8e5-3ff00990d4ff">
+        <Attribute dwd:design-time-name="1079b2fc-c4d0-4ea9-8d14-df436f748943">
           <AttributeID>Day</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="518d71c8-2cb2-434c-abc9-c1cff6e32a5e">
+        <Attribute dwd:design-time-name="c63c2f8c-adbf-4b27-be57-5fce9ad3bd5b">
           <AttributeID>Month Name</AttributeID>
         </Attribute>
       </Attributes>
     </Dimension>
-    <Dimension dwd:design-time-name="1d1aff55-2c1f-4c39-84dc-05923f117525">
+    <Dimension dwd:design-time-name="dd9aecd3-fe5b-4c79-a313-6f09b343774e">
       <ID>Dim OS</ID>
       <Name>Dim OS</Name>
       <DimensionID>Dim OS</DimensionID>
       <Attributes>
-        <Attribute dwd:design-time-name="79e38466-c8a6-4f47-b545-59312659f417">
+        <Attribute dwd:design-time-name="e7dc4cfa-1422-456d-80c4-82ae29077149">
           <AttributeID>Os Key</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="e231b699-adf0-4751-ad8b-269fc0a208a1">
+          <AttributeID>Os</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="f0c70a8a-45b9-4ace-9e5a-3a7ee79fadae">
+          <AttributeID>Os Version</AttributeID>
         </Attribute>
       </Attributes>
     </Dimension>
-    <Dimension dwd:design-time-name="6913a9d6-f31e-4264-9092-0e304917fd14">
+    <Dimension dwd:design-time-name="a4e4a2a8-6ddd-47bf-a548-6f534edbd03c">
       <ID>Dim Platform</ID>
       <Name>Dim Platform</Name>
       <DimensionID>Dim Platform</DimensionID>
       <Attributes>
-        <Attribute dwd:design-time-name="cee875ef-6311-49e7-9ea2-1264ae8e3fea">
+        <Attribute dwd:design-time-name="516f70ac-26b3-4ab6-aafe-b6ff9fbb6fea">
           <AttributeID>Platform Key</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="aa911ca2-45e3-4910-80df-686d687b3bc4">
+          <AttributeID>Platform Name</AttributeID>
         </Attribute>
       </Attributes>
     </Dimension>
-    <Dimension dwd:design-time-name="4541d4ce-ab53-4108-81ec-d750dac2a83b">
+    <Dimension dwd:design-time-name="b965161b-dcca-4efc-8799-0f894e54fd5e">
       <ID>Fixed In Version</ID>
       <Name>Fixed In Version</Name>
       <DimensionID>Dim Version</DimensionID>
       <Attributes>
-        <Attribute dwd:design-time-name="fd84b686-9380-42da-877b-5f8637351ad9">
+        <Attribute dwd:design-time-name="28bbde78-381b-4a26-82b4-b367ee5fb346">
           <AttributeID>Version Key</AttributeID>
         </Attribute>
       </Attributes>
     </Dimension>
-    <Dimension dwd:design-time-name="91015671-f8aa-43d9-8b62-6935a9b11823">
+    <Dimension dwd:design-time-name="c59e9400-465d-4699-a65c-bb002dc25fc2">
       <ID>Product Version</ID>
       <Name>Product Version</Name>
       <DimensionID>Dim Version</DimensionID>
       <Attributes>
-        <Attribute dwd:design-time-name="34ae9036-ef44-4bad-b181-4158ce968ab2">
+        <Attribute dwd:design-time-name="c7925707-2028-47cb-838a-31d8a97f0170">
           <AttributeID>Version Key</AttributeID>
         </Attribute>
       </Attributes>
     </Dimension>
   </Dimensions>
   <MeasureGroups>
-    <MeasureGroup dwd:design-time-name="9c5b0019-2f37-48c9-800f-939d5f800459">
+    <MeasureGroup dwd:design-time-name="69652de5-082c-484c-91c2-a2e8cab6c853">
       <ID>Fact Ticket Snapshot</ID>
       <Name>Fact Ticket Snapshot</Name>
       <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
@@ -877,25 +895,25 @@
       <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
       <State>Unprocessed</State>
       <Measures>
-        <Measure dwd:design-time-name="e4e27feb-602c-4e5a-9265-79c2f7f87f38">
+        <Measure dwd:design-time-name="0c4b82b3-8965-42be-a8fb-85bc790a6566">
           <ID>Fact Ticket Snapshot Count</ID>
           <Name>Fact Ticket Snapshot Count</Name>
           <AggregateFunction>Count</AggregateFunction>
-          <Source dwd:design-time-name="d42225da-0f11-4954-a76a-2a9a6e638ee1">
+          <Source dwd:design-time-name="2ce7b4d3-155a-4ff3-9836-0bbb57fb9190">
             <DataType>Integer</DataType>
             <DataSize>4</DataSize>
-            <Source xsi:type="RowBinding" dwd:design-time-name="d5033046-3140-41a6-b749-991fc3556843">
+            <Source xsi:type="RowBinding" dwd:design-time-name="fa77c4c7-997f-483a-82e4-9b2c5a46460f">
               <TableID>dbo_Fact_Ticket_Snapshot</TableID>
             </Source>
           </Source>
           <Visible>false</Visible>
         </Measure>
-        <Measure dwd:design-time-name="2825d155-264d-4b73-b8f4-3e03b6e95ba3">
+        <Measure dwd:design-time-name="70f35711-cd55-424d-a5ea-c16b5e4c983a">
           <ID>Age Days</ID>
           <Name>Age Days sum</Name>
-          <Source dwd:design-time-name="3583d7b2-47b9-46c0-8c5f-0b1ee1d603ea">
+          <Source dwd:design-time-name="42d7bb5e-f5cd-42eb-90b6-1a70982804ff">
             <DataType>Integer</DataType>
-            <Source xsi:type="ColumnBinding" dwd:design-time-name="086b697c-d2c5-4eba-a500-a2990dc7eea9">
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="2e89134d-9132-4c00-9f32-7740556f75c6">
               <TableID>dbo_Fact_Ticket_Snapshot</TableID>
               <ColumnID>age_days</ColumnID>
             </Source>
@@ -905,15 +923,15 @@
       <StorageMode>Molap</StorageMode>
       <ProcessingMode>Regular</ProcessingMode>
       <Dimensions>
-        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="d2e34a74-f810-4356-bac1-363c22c7708f">
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="96bbbc2a-6291-4464-bcf5-267a851081dd">
           <CubeDimensionID>Dim Severity</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="87ed971a-b5eb-4c1c-b8b0-c7f0f6c72acf">
+            <Attribute dwd:design-time-name="c9b6a4dd-d392-42c5-8f29-4f6205dce5d5">
               <AttributeID>Severity Key</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="472b3e9c-fb57-4fa6-9d52-5d8b5c38194a">
+                <KeyColumn dwd:design-time-name="9f337c8f-f132-4e5e-9c83-75cfc122f141">
                   <DataType>Integer</DataType>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="a3bffa01-0eed-40bf-acdd-1343ae21dc63">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="41277d86-3c97-4d52-bd5d-b97092eb67c9">
                     <TableID>dbo_Fact_Ticket_Snapshot</TableID>
                     <ColumnID>severity_key</ColumnID>
                   </Source>
@@ -923,15 +941,15 @@
             </Attribute>
           </Attributes>
         </Dimension>
-        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="d51f53d9-1708-4b28-93f5-616964365840">
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="470dc2be-aaba-4ed1-89e8-93fc2e137847">
           <CubeDimensionID>Dim Assigned To</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="1ca245aa-b50e-44f9-abaa-20e6879314fe">
+            <Attribute dwd:design-time-name="a13cd618-631a-4ea4-ba99-7afe842ad58c">
               <AttributeID>Assigned To Key</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="f7ae1a7e-1c63-4e42-84ee-6ab2fe7bb1fb">
+                <KeyColumn dwd:design-time-name="9f508107-897e-47e4-996b-23995d380f98">
                   <DataType>Integer</DataType>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="8b2c56c9-bfd9-4cea-b347-afd8020f56ab">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="827ffe32-5889-44bf-9941-71beead58baf">
                     <TableID>dbo_Fact_Ticket_Snapshot</TableID>
                     <ColumnID>assigned_to_key</ColumnID>
                   </Source>
@@ -941,15 +959,15 @@
             </Attribute>
           </Attributes>
         </Dimension>
-        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="e9391c63-5de5-4bcf-8369-98127b985e9d">
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="255fe618-ce69-4a07-a75f-8139d407a5b2">
           <CubeDimensionID>Dim Reporter</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="c5594014-2ca8-4af0-8b66-17d69109f470">
+            <Attribute dwd:design-time-name="08efbb6e-6202-48ac-b6b5-5bff7e606ac1">
               <AttributeID>Reporter Key</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="23ba2aa4-ab77-4578-aa8c-b637af9eb5c4">
+                <KeyColumn dwd:design-time-name="cbae515a-f0fe-46da-b389-341a8565f147">
                   <DataType>Integer</DataType>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="43f162af-69b9-47f7-bb73-3d0141922a64">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="774a62ea-e973-4d4a-be30-213ff5aa3982">
                     <TableID>dbo_Fact_Ticket_Snapshot</TableID>
                     <ColumnID>reporter_key</ColumnID>
                   </Source>
@@ -959,15 +977,15 @@
             </Attribute>
           </Attributes>
         </Dimension>
-        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="7690de5e-7f98-4d44-aea3-d71cfebec5fa">
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="11500cfc-ddd6-46ef-ba05-a026596c0be1">
           <CubeDimensionID>Date Updated</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="3bfa31b4-0a53-42d4-8227-6430c531d3ee">
+            <Attribute dwd:design-time-name="3880e16b-7665-45cd-87c4-45901b4ca167">
               <AttributeID>Date Key</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="fa50ccd9-ccfb-4b5f-8a16-022b212d3e69">
+                <KeyColumn dwd:design-time-name="671abaff-e280-4cf4-a7a8-93883cfa53de">
                   <DataType>Integer</DataType>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="e4db057e-5a67-418a-90a7-49bbc6977a60">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="d9e975bb-423e-4260-a82b-d7523c1731ac">
                     <TableID>dbo_Fact_Ticket_Snapshot</TableID>
                     <ColumnID>date_updated_key</ColumnID>
                   </Source>
@@ -977,15 +995,15 @@
             </Attribute>
           </Attributes>
         </Dimension>
-        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="6ee16c1e-c876-444a-a658-c8431a72fafd">
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="018448f5-8174-4e87-afd7-2c48ac735280">
           <CubeDimensionID>Dim Priority</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="f6877320-bd95-42dc-8e6c-79639c1a52f3">
+            <Attribute dwd:design-time-name="7b2303f6-3dc3-4af2-978a-697fedabaf03">
               <AttributeID>Priority Key</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="e632d6ef-30e1-483a-8e4b-22e6c3b03ae2">
+                <KeyColumn dwd:design-time-name="444610f5-77c7-47e4-bc72-88b48b5cac94">
                   <DataType>Integer</DataType>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="983295f0-0d0c-4234-83ea-1a29551c552c">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="e490be2a-e429-4870-b4ee-cab30d3aca59">
                     <TableID>dbo_Fact_Ticket_Snapshot</TableID>
                     <ColumnID>priority_key</ColumnID>
                   </Source>
@@ -995,15 +1013,15 @@
             </Attribute>
           </Attributes>
         </Dimension>
-        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="c484ce2d-7d18-4d21-88b8-33e2cb738534">
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="5057d3de-67d3-45d8-89f2-f4864b2b1f46">
           <CubeDimensionID>Dim Status</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="923df457-ab59-419c-bca8-322709f01c1e">
+            <Attribute dwd:design-time-name="48172f39-0415-44c0-8bc2-44b6d9128968">
               <AttributeID>Status Key</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="d1c12339-5254-4a9c-889a-6f962e07fe12">
+                <KeyColumn dwd:design-time-name="73958ade-e9c0-4ebd-ac96-41be7a623540">
                   <DataType>Integer</DataType>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="96368e17-83ac-48bb-8b6b-4d6a0621ff72">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="8cb8e592-735b-446a-bbec-3892ab2ecdff">
                     <TableID>dbo_Fact_Ticket_Snapshot</TableID>
                     <ColumnID>status_key</ColumnID>
                   </Source>
@@ -1013,15 +1031,15 @@
             </Attribute>
           </Attributes>
         </Dimension>
-        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="25e8ffa3-10d9-4e58-a2eb-5c6ffa68ee42">
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="399e8215-9997-4387-9627-eee06a87744c">
           <CubeDimensionID>Date Loaded</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="3a715ff3-8dfd-4cc9-9c69-5eed31a378d7">
+            <Attribute dwd:design-time-name="12e15212-4474-416c-b560-8cda72eed721">
               <AttributeID>Date Key</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="d7535727-c56f-400b-a368-1fd7b43719f0">
+                <KeyColumn dwd:design-time-name="6eaef58d-8a4b-47d7-992a-78ec8d09d790">
                   <DataType>Integer</DataType>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="c3e32563-dfbe-475c-a2fb-c59e0fea15c2">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="b0327821-eedb-4df6-91c9-514d5cc55bb6">
                     <TableID>dbo_Fact_Ticket_Snapshot</TableID>
                     <ColumnID>date_loaded_key</ColumnID>
                   </Source>
@@ -1031,15 +1049,15 @@
             </Attribute>
           </Attributes>
         </Dimension>
-        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="39ce704c-832c-4b2d-bac7-8314b316a7f2">
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="c7096d39-7cca-42c1-88cc-21e324ddbf83">
           <CubeDimensionID>Dim Resolution</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="21c745d6-6e76-4da2-8cb2-b6476a498558">
+            <Attribute dwd:design-time-name="652d69b3-9649-4ba1-902d-58c4ff7ec762">
               <AttributeID>Resolution Key</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="e6b09e23-b828-4eb3-8451-06966e6fdcae">
+                <KeyColumn dwd:design-time-name="c857b88d-c358-46ec-b52d-84d43b338241">
                   <DataType>Integer</DataType>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="b52e70d3-eb3e-4a92-8162-6c70cc2b4252">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="04f5ff50-7d2a-4b04-9fa5-8d3f0fbbaa44">
                     <TableID>dbo_Fact_Ticket_Snapshot</TableID>
                     <ColumnID>resolution_key</ColumnID>
                   </Source>
@@ -1049,15 +1067,15 @@
             </Attribute>
           </Attributes>
         </Dimension>
-        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="b9ee7cdf-02f0-467b-a994-f7b2f9c98f2a">
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="34e93ff0-5145-4ba4-aeb1-4e41ce3502c4">
           <CubeDimensionID>Dim Project</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="203e9c5f-e7e9-4155-aa57-39711d718814">
+            <Attribute dwd:design-time-name="4f2c3a7a-e2bd-4d29-9bf2-6f57cc93ad6c">
               <AttributeID>Project Key</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="98a2dd2c-3e60-4fd9-9baf-42e0aa8e0817">
+                <KeyColumn dwd:design-time-name="fda62f03-eebc-4bea-80e5-9155ef791d33">
                   <DataType>Integer</DataType>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="7f358102-16f4-433d-af7c-fa3e3fb0e85c">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="264d3981-b927-40df-83d4-5cfd8c7fbd16">
                     <TableID>dbo_Fact_Ticket_Snapshot</TableID>
                     <ColumnID>project_key</ColumnID>
                   </Source>
@@ -1067,15 +1085,15 @@
             </Attribute>
           </Attributes>
         </Dimension>
-        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="26faa8b9-3040-4ee6-92ff-69314e8dbe37">
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="4015389c-90df-4d06-a167-e745ad67f447">
           <CubeDimensionID>Dim Reproducibility</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="f543b2d6-6647-4d57-aef3-a997c2b8039e">
+            <Attribute dwd:design-time-name="1947fe39-378c-492f-aaa2-ebf8972e9da5">
               <AttributeID>Reproducibility Key</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="4532dc83-8e53-4f46-9dae-44a991851f00">
+                <KeyColumn dwd:design-time-name="d0cee545-ae9b-478b-967d-63bdf6c09f4e">
                   <DataType>Integer</DataType>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="7f4d13a2-d81e-487d-9791-8bda366c18bc">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="dc7ecc5e-1630-4f69-9b08-3cf1188d490b">
                     <TableID>dbo_Fact_Ticket_Snapshot</TableID>
                     <ColumnID>reproducibility_key</ColumnID>
                   </Source>
@@ -1085,15 +1103,15 @@
             </Attribute>
           </Attributes>
         </Dimension>
-        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="3d39b429-0e9f-4db2-bb08-12b721fc0b60">
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="bb05c3ef-3078-4071-be22-8cb4e190c080">
           <CubeDimensionID>Dim Category</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="2f25d035-2732-49a2-8913-398eebb27957">
+            <Attribute dwd:design-time-name="7efa114e-d80a-40fc-997b-e6ca9eb8350e">
               <AttributeID>Category Key</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="695080d3-03dc-4573-ad6d-f6a7f363bcda">
+                <KeyColumn dwd:design-time-name="f8b06102-162c-42e9-8506-92169927c9ef">
                   <DataType>Integer</DataType>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="02b672c1-1b00-4952-b4c4-592e384b4c87">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="65a06d12-3b8a-41e6-a2ee-bfcdbc91bc6f">
                     <TableID>dbo_Fact_Ticket_Snapshot</TableID>
                     <ColumnID>category_key</ColumnID>
                   </Source>
@@ -1103,15 +1121,15 @@
             </Attribute>
           </Attributes>
         </Dimension>
-        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="84b96878-c113-4f01-b12f-8d360166b3b3">
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="9dc41fa9-fa51-4397-b517-169ae42edf55">
           <CubeDimensionID>Dim Ticket</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="240b34a9-071d-4ca7-8b3c-6e68a21b5183">
+            <Attribute dwd:design-time-name="34dcbaa0-5c88-4f45-a6ed-8e8f17cbb796">
               <AttributeID>Ticket Key</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="d0358437-0e1a-4701-b0c1-cd747ec8df7d">
+                <KeyColumn dwd:design-time-name="698009cc-65e6-4177-a2da-4ca20388b0d2">
                   <DataType>Integer</DataType>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="86da6c08-52e2-4605-a7c8-26b3e8b4c856">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="68d4ca70-ac52-4957-bbed-2b003c1d39da">
                     <TableID>dbo_Fact_Ticket_Snapshot</TableID>
                     <ColumnID>ticket_key</ColumnID>
                   </Source>
@@ -1121,10 +1139,10 @@
             </Attribute>
           </Attributes>
         </Dimension>
-        <Dimension xsi:type="ReferenceMeasureGroupDimension" dwd:design-time-name="7c30c69c-acf8-46b1-8162-c35c77449123">
+        <Dimension xsi:type="ReferenceMeasureGroupDimension" dwd:design-time-name="86fa7d0b-7fca-4447-8230-8c032546cad4">
           <CubeDimensionID>Dim Ticket - Date Submitted</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="2f44a35d-be06-44c5-9359-030685e04065">
+            <Attribute dwd:design-time-name="4a7bd4fe-7eb7-45fb-b935-162089985835">
               <AttributeID>Date Key</AttributeID>
               <Type>Granularity</Type>
             </Attribute>
@@ -1134,10 +1152,10 @@
           <Materialization>Regular</Materialization>
           <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
         </Dimension>
-        <Dimension xsi:type="ReferenceMeasureGroupDimension" dwd:design-time-name="89e096e9-233d-42e0-85bd-c2c2029b2ea7">
+        <Dimension xsi:type="ReferenceMeasureGroupDimension" dwd:design-time-name="d22f349c-25b1-4274-8ddc-6604b4df8414">
           <CubeDimensionID>Dim Ticket - Date Resolution</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="ad2aa089-c592-4eec-91cb-e1b0ed85e5fa">
+            <Attribute dwd:design-time-name="f9d2f243-d140-4a27-bcc0-2c9416bbe59f">
               <AttributeID>Date Key</AttributeID>
               <Type>Granularity</Type>
             </Attribute>
@@ -1147,15 +1165,15 @@
           <Materialization>Regular</Materialization>
           <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
         </Dimension>
-        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="34cd6824-a723-4b51-8531-af688b608ffb">
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="bbc46079-c61f-4bc2-bccb-339eb851917a">
           <CubeDimensionID>Dim OS</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="0d836f2b-090e-42dd-ac67-ba91e70b6583">
+            <Attribute dwd:design-time-name="a9be369c-0be8-41b1-96d4-6c798ff5a25c">
               <AttributeID>Os Key</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="db94f679-0b0a-4e3a-9586-e6ecab82a55c">
+                <KeyColumn dwd:design-time-name="650001b1-e93c-468d-b50e-d1601f2956e5">
                   <DataType>Integer</DataType>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="7174f49e-cbf3-41e0-b3cb-8853f86a0e49">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="e2d43a6f-d643-4cbb-ad88-1741a98a12c2">
                     <TableID>dbo_Fact_Ticket_Snapshot</TableID>
                     <ColumnID>os_key</ColumnID>
                   </Source>
@@ -1165,15 +1183,15 @@
             </Attribute>
           </Attributes>
         </Dimension>
-        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="80b98465-e2ec-4be1-ba17-65a6f13cde50">
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="5fa140a1-e051-4692-b071-177cc24a5090">
           <CubeDimensionID>Dim Platform</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="49a70f62-c215-4b04-a004-0dc40ce95e91">
+            <Attribute dwd:design-time-name="52b23fa5-7886-4162-9b87-022ef58f4ac6">
               <AttributeID>Platform Key</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="ad011385-9f42-4cb1-89ae-97e36a11d89d">
+                <KeyColumn dwd:design-time-name="3356dd72-4760-4cb7-8599-bd1c455402dd">
                   <DataType>Integer</DataType>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="b1f413cf-d7fc-4694-bfa6-a2c305cc9af6">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="56b32203-85aa-4f65-bbb9-6db0920de02d">
                     <TableID>dbo_Fact_Ticket_Snapshot</TableID>
                     <ColumnID>platform_key</ColumnID>
                   </Source>
@@ -1183,15 +1201,15 @@
             </Attribute>
           </Attributes>
         </Dimension>
-        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="9faeaa98-7abc-4148-aaca-725c7092d8dc">
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="11d17dce-522f-4bd0-823e-b43fad3986d2">
           <CubeDimensionID>Fixed In Version</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="c5f6ff21-ab6a-4360-b35a-68285d9cd1ca">
+            <Attribute dwd:design-time-name="9afad353-617f-4d3c-8d35-b6dc9c03f86d">
               <AttributeID>Version Key</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="d659a157-4de5-4f21-b713-5bcd75ff043c">
+                <KeyColumn dwd:design-time-name="f329eaf0-1e0c-4785-b69c-d6e9f65e2bf0">
                   <DataType>Integer</DataType>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="13996e2a-ea75-4a3d-af6b-590606a98d66">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="b07703bb-a014-48f3-8bad-b1a6cf878928">
                     <TableID>dbo_Fact_Ticket_Snapshot</TableID>
                     <ColumnID>fixed_in_version_key</ColumnID>
                   </Source>
@@ -1201,15 +1219,15 @@
             </Attribute>
           </Attributes>
         </Dimension>
-        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="6f21393c-8844-4a5d-bce4-60c54b1c19d8">
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="7a6bb24e-3d4c-419e-abd0-a245d2c6997e">
           <CubeDimensionID>Product Version</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="db50db0a-a6ac-4a30-a447-a7eeaf526ca5">
+            <Attribute dwd:design-time-name="5b4d1db0-6c98-483a-b6cc-4acbefb2c139">
               <AttributeID>Version Key</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="c15d11ed-fa03-4e2e-9e5f-c59409cd9b3d">
+                <KeyColumn dwd:design-time-name="20be047f-999f-4e91-8643-0b0657e0fd62">
                   <DataType>Integer</DataType>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="2d181838-1b19-43c1-859c-d776144468de">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="f389863a-9510-46f8-8014-7d466518b14b">
                     <TableID>dbo_Fact_Ticket_Snapshot</TableID>
                     <ColumnID>product_version_key</ColumnID>
                   </Source>
@@ -1222,7 +1240,7 @@
       </Dimensions>
       <Partitions />
     </MeasureGroup>
-    <MeasureGroup dwd:design-time-name="08b4e6c0-1373-4b92-b994-a8ed806ff924">
+    <MeasureGroup dwd:design-time-name="b5a8b898-c280-456f-a93d-743c6a11a64c">
       <ID>Fact Ticket Snapshot 1</ID>
       <Name>Ticket Distinct Count</Name>
       <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
@@ -1230,14 +1248,14 @@
       <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
       <State>Unprocessed</State>
       <Measures>
-        <Measure dwd:design-time-name="4c911758-9e91-4e7c-ab7c-bc073e871587">
+        <Measure dwd:design-time-name="0386fb70-7fbe-4ab8-a1f4-6857aa59c1a3">
           <ID>Ticket Key Distinct Count</ID>
           <Name>Ticket Count</Name>
           <AggregateFunction>DistinctCount</AggregateFunction>
           <DataType>Integer</DataType>
-          <Source dwd:design-time-name="e83b1b64-2b19-4df5-9bb9-efcca32fce17">
+          <Source dwd:design-time-name="088831d9-ecd9-48c4-814d-972bac411ca6">
             <DataType>Integer</DataType>
-            <Source xsi:type="ColumnBinding" dwd:design-time-name="5c3836e8-23e1-4c23-b866-36fed9d23c82">
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="f7cc4909-2c84-45f3-abb9-2ff5cbbb2870">
               <TableID>dbo_Fact_Ticket_Snapshot</TableID>
               <ColumnID>ticket_key</ColumnID>
             </Source>
@@ -1247,15 +1265,15 @@
       <StorageMode>Molap</StorageMode>
       <ProcessingMode>Regular</ProcessingMode>
       <Dimensions>
-        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="9d1d3afd-3bf3-4550-bd31-d59a0a5dba37">
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="3cbf12aa-358c-44e0-aaff-67dadd4e0ab0">
           <CubeDimensionID>Dim Severity</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="04058316-6bb3-4e7e-9af1-17d93125a90f">
+            <Attribute dwd:design-time-name="dba47be1-73ad-4e8b-9cd2-4aea4f7289eb">
               <AttributeID>Severity Key</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="7d978cd9-19a7-4669-8a58-2a45adb301cd">
+                <KeyColumn dwd:design-time-name="b0fd195b-4149-4286-9ed8-8a1f93765c51">
                   <DataType>Integer</DataType>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="536a4146-a213-4434-97f4-1957cbe074dc">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="ed34a7fb-b4ee-4492-a20e-30e079a4f8ed">
                     <TableID>dbo_Fact_Ticket_Snapshot</TableID>
                     <ColumnID>severity_key</ColumnID>
                   </Source>
@@ -1265,15 +1283,15 @@
             </Attribute>
           </Attributes>
         </Dimension>
-        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="d6c3b10b-6823-4a0a-ae3d-c7420af4c651">
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="4c0ecf54-7c8c-4538-9b69-40df89f2ac08">
           <CubeDimensionID>Dim Assigned To</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="a6a4944b-d999-40c3-a7be-4ea3eff1f34a">
+            <Attribute dwd:design-time-name="4001cf41-f30e-4147-a7f6-ffdaaa7c6fc5">
               <AttributeID>Assigned To Key</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="56ed5da1-d241-462a-b3f0-c5f3f7798988">
+                <KeyColumn dwd:design-time-name="fe0c086f-52c7-4a1f-a7e9-b8dd9d4a36d9">
                   <DataType>Integer</DataType>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="4f552470-2274-4061-a56a-0d5e9474c882">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="15bc1299-1f47-4da3-9a3f-ee63f880f96f">
                     <TableID>dbo_Fact_Ticket_Snapshot</TableID>
                     <ColumnID>assigned_to_key</ColumnID>
                   </Source>
@@ -1283,15 +1301,15 @@
             </Attribute>
           </Attributes>
         </Dimension>
-        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="85fdb3f5-e2d6-4425-83ef-4eac003d2cc2">
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="d127ff9e-f99d-4a8a-8490-698c622f0f17">
           <CubeDimensionID>Dim Reporter</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="6e38f309-a116-4ae1-8eb0-fae23db6f434">
+            <Attribute dwd:design-time-name="4c9b6e5f-71eb-4288-8ca9-5a4d5af85769">
               <AttributeID>Reporter Key</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="b765e357-7447-471a-ba73-6d5cfc0feefd">
+                <KeyColumn dwd:design-time-name="528ad2d7-be11-4c2f-ad62-a13b28ce7bdc">
                   <DataType>Integer</DataType>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="797c7911-29f9-45fc-9dbd-6b96d19e5f2f">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="76bca625-e236-4b4a-acd8-83dd3bb6b87b">
                     <TableID>dbo_Fact_Ticket_Snapshot</TableID>
                     <ColumnID>reporter_key</ColumnID>
                   </Source>
@@ -1301,15 +1319,15 @@
             </Attribute>
           </Attributes>
         </Dimension>
-        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="a586cfe9-9842-4000-a791-79a1e5e7d2a7">
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="1806d2ae-2d7d-4fba-ba1f-68b1ca142318">
           <CubeDimensionID>Date Updated</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="9f3701e8-1053-4fc7-8d42-19f89fcd0eba">
+            <Attribute dwd:design-time-name="5ecbcfd8-078a-4fd9-82d6-6b9f38d3be15">
               <AttributeID>Date Key</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="be923049-74f3-4314-8f90-792ec757d8f8">
+                <KeyColumn dwd:design-time-name="e71a05ec-091c-4bf4-85d8-c2fcf9d7c698">
                   <DataType>Integer</DataType>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="d9460710-a0e9-4506-92fe-40ac840e688a">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="0b4166de-89f6-46c2-80d1-088f1b9b8796">
                     <TableID>dbo_Fact_Ticket_Snapshot</TableID>
                     <ColumnID>date_updated_key</ColumnID>
                   </Source>
@@ -1319,15 +1337,15 @@
             </Attribute>
           </Attributes>
         </Dimension>
-        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="ea657d7a-da0e-4612-afc2-135ce4b80810">
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="85a2c179-6f3f-47a0-bb12-953e74cd1924">
           <CubeDimensionID>Dim Priority</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="d0a6b7cf-38bf-4494-a234-6d92589c70dd">
+            <Attribute dwd:design-time-name="dc7f5e96-4526-4f72-bf35-8fca87f9f428">
               <AttributeID>Priority Key</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="6f367b62-d9ca-4ddc-847a-2a0decc115df">
+                <KeyColumn dwd:design-time-name="f341fedd-b2e7-41e1-8a61-7da4e91c8dea">
                   <DataType>Integer</DataType>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="965a87ad-5e6c-444c-9caf-ba27a036738f">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="98e3249f-4195-466b-8e51-af5123e9d53e">
                     <TableID>dbo_Fact_Ticket_Snapshot</TableID>
                     <ColumnID>priority_key</ColumnID>
                   </Source>
@@ -1337,15 +1355,15 @@
             </Attribute>
           </Attributes>
         </Dimension>
-        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="6c276e39-dd29-4545-a6bf-10736c7b04b7">
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="d14f7e4a-3d7a-48e8-9e81-ff96030da8dc">
           <CubeDimensionID>Dim Status</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="da58fdd6-dcd8-4750-8123-97067a12317a">
+            <Attribute dwd:design-time-name="7b02b900-c04e-414f-a841-7e6a32af3897">
               <AttributeID>Status Key</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="1e95dafe-bbad-430e-b584-b52df0415377">
+                <KeyColumn dwd:design-time-name="2eab4a75-cc3a-4da3-99f2-172a4d276f62">
                   <DataType>Integer</DataType>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="cc52c82f-fada-4d06-bf1d-78afaf7184d0">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="314a4069-4f80-445c-b72b-eca89f53bb08">
                     <TableID>dbo_Fact_Ticket_Snapshot</TableID>
                     <ColumnID>status_key</ColumnID>
                   </Source>
@@ -1355,15 +1373,15 @@
             </Attribute>
           </Attributes>
         </Dimension>
-        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="dc9db80a-c1b0-4512-b24d-e97a57d3fe06">
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="75c7f4ff-4c30-4092-8f85-77af8d49eda8">
           <CubeDimensionID>Date Loaded</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="ca6a326b-1543-4a9c-a4bd-f7e0424604c2">
+            <Attribute dwd:design-time-name="1678519c-1b9a-472e-bf25-0c6fe5a083b1">
               <AttributeID>Date Key</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="7663c2ee-e1f8-4bb3-8693-19efcea40797">
+                <KeyColumn dwd:design-time-name="22222d24-756f-4c31-9e22-623085b715ad">
                   <DataType>Integer</DataType>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="36720a02-2b87-4685-b4bf-25fbc522325d">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="3a843e96-4dd0-4be2-aac9-41001053298d">
                     <TableID>dbo_Fact_Ticket_Snapshot</TableID>
                     <ColumnID>date_loaded_key</ColumnID>
                   </Source>
@@ -1373,15 +1391,15 @@
             </Attribute>
           </Attributes>
         </Dimension>
-        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="8c082189-3d70-43ae-b6eb-fa93a4012d91">
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="07b9ef89-584b-409c-8c6e-cf575a40d019">
           <CubeDimensionID>Dim Resolution</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="5f799bb4-e217-4c53-a83d-7d4bc8457839">
+            <Attribute dwd:design-time-name="78ec700d-6baa-480b-baee-8ad1fc38aa1f">
               <AttributeID>Resolution Key</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="572da565-059d-4d43-b575-724574a5d1ea">
+                <KeyColumn dwd:design-time-name="3c67c4c7-38e9-40dd-a7c5-a00bf8bf81f4">
                   <DataType>Integer</DataType>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="98473734-33af-41ba-9819-0e78bddbc81c">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="01c07ba7-576b-482f-8b26-42675ecfc603">
                     <TableID>dbo_Fact_Ticket_Snapshot</TableID>
                     <ColumnID>resolution_key</ColumnID>
                   </Source>
@@ -1391,15 +1409,15 @@
             </Attribute>
           </Attributes>
         </Dimension>
-        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="4ecb5761-7dd1-48ce-b258-48834f0bda01">
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="0673b26b-74e8-4fa4-893e-88576fa4747a">
           <CubeDimensionID>Dim Project</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="dadac680-ac38-41ef-b188-ff558f3bf669">
+            <Attribute dwd:design-time-name="99dcc9a0-bc3f-4eb2-8e49-f5ff400c2981">
               <AttributeID>Project Key</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="48bbf2bf-2099-4749-89f0-844b55732463">
+                <KeyColumn dwd:design-time-name="e95ff3d7-bb9f-4aa3-9c29-d7a41e6bc976">
                   <DataType>Integer</DataType>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="0d43d1d3-947b-4d33-8dd9-95d23284808e">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="6facaa78-9ca7-4891-82f2-d5e9b020d674">
                     <TableID>dbo_Fact_Ticket_Snapshot</TableID>
                     <ColumnID>project_key</ColumnID>
                   </Source>
@@ -1409,15 +1427,15 @@
             </Attribute>
           </Attributes>
         </Dimension>
-        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="40e89563-7988-4bb5-96c2-2d7109594a56">
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="c9df68ec-6599-4096-9974-11fb713bbcc2">
           <CubeDimensionID>Dim Reproducibility</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="80cf8f38-84f7-449d-afa7-b46d92dd3f38">
+            <Attribute dwd:design-time-name="34e5d05a-5ef9-43fe-a290-f113653c843b">
               <AttributeID>Reproducibility Key</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="5909532a-0ac5-4ebe-aaf0-e3304f0629e1">
+                <KeyColumn dwd:design-time-name="bf401f64-3b09-447c-b00b-9303a47a989c">
                   <DataType>Integer</DataType>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="31bc3f72-b448-46e5-894b-7e251eb37eec">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="20043b24-6a09-4c80-8954-7d36ef382afc">
                     <TableID>dbo_Fact_Ticket_Snapshot</TableID>
                     <ColumnID>reproducibility_key</ColumnID>
                   </Source>
@@ -1427,15 +1445,15 @@
             </Attribute>
           </Attributes>
         </Dimension>
-        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="b47a4ed9-401a-4658-90f0-7636f9643e07">
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="936bcf1b-3245-494b-9d10-a9d8388d8868">
           <CubeDimensionID>Dim Category</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="1daaf529-d71d-4e1d-bc7b-4052c25468d3">
+            <Attribute dwd:design-time-name="8b4f5702-462c-41b3-85f3-d5bb4b76786b">
               <AttributeID>Category Key</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="ae842d53-b903-4ca8-89cf-a07e523ab5c3">
+                <KeyColumn dwd:design-time-name="bb06b2e1-d4d9-4fe4-ba4d-fbef49c7d59c">
                   <DataType>Integer</DataType>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="4dc25e65-c3bc-469b-84d6-f4f791c75b48">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="8377693c-badd-497a-8bb4-d5ab47116a10">
                     <TableID>dbo_Fact_Ticket_Snapshot</TableID>
                     <ColumnID>category_key</ColumnID>
                   </Source>
@@ -1445,15 +1463,15 @@
             </Attribute>
           </Attributes>
         </Dimension>
-        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="1abddcb5-fd55-4bfe-aaa5-09b6fabed572">
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="4e890cc4-67c4-4981-8027-f52f0f7f774e">
           <CubeDimensionID>Dim Ticket</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="9b8ff06b-6c97-4c92-8c73-bf02f1b21a8a">
+            <Attribute dwd:design-time-name="f315d05e-240c-409f-9425-e79abb1400ee">
               <AttributeID>Ticket Key</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="b53fa154-0e6e-4783-8029-9552b6e4a333">
+                <KeyColumn dwd:design-time-name="f5d7ad56-56c3-4d67-af3f-313badadb174">
                   <DataType>Integer</DataType>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="9a354b04-22bf-41db-82b3-29766720966f">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="246dcecf-dc6d-4e64-b72c-90a3695d2c96">
                     <TableID>dbo_Fact_Ticket_Snapshot</TableID>
                     <ColumnID>ticket_key</ColumnID>
                   </Source>
@@ -1463,10 +1481,10 @@
             </Attribute>
           </Attributes>
         </Dimension>
-        <Dimension xsi:type="ReferenceMeasureGroupDimension" dwd:design-time-name="bf159549-5167-43aa-8679-4265c608324f">
+        <Dimension xsi:type="ReferenceMeasureGroupDimension" dwd:design-time-name="e807922d-620f-470a-b8f2-c9b07deaadaf">
           <CubeDimensionID>Dim Ticket - Date Resolution</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="a931cc4e-186f-434f-93c8-d9f443c94bcb">
+            <Attribute dwd:design-time-name="5376af23-7252-461f-89d9-e0763f639bc0">
               <AttributeID>Date Key</AttributeID>
               <Type>Granularity</Type>
             </Attribute>
@@ -1476,15 +1494,15 @@
           <Materialization>Regular</Materialization>
           <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
         </Dimension>
-        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="a4e0ad95-272e-469c-a26c-6117e58a0ebd">
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="4be81b97-f1b0-49fe-852a-cf1958b56e41">
           <CubeDimensionID>Dim OS</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="40f9c5eb-00a0-48ff-8255-fa16e766538b">
+            <Attribute dwd:design-time-name="0f764c88-d20e-461b-bf24-117a2b4553c0">
               <AttributeID>Os Key</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="d7bc4d34-6733-406b-8f6f-22b078ce146a">
+                <KeyColumn dwd:design-time-name="39f5d962-7ddf-4062-9a80-37b3f07d5194">
                   <DataType>Integer</DataType>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="8e1255a2-49fb-43f3-8091-c34bd5becc28">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="c9c62abe-989c-4b66-b673-f3b97134f82c">
                     <TableID>dbo_Fact_Ticket_Snapshot</TableID>
                     <ColumnID>os_key</ColumnID>
                   </Source>
@@ -1494,15 +1512,15 @@
             </Attribute>
           </Attributes>
         </Dimension>
-        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="edb92f6e-15a0-432d-bdfa-a5049cf7a6e0">
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="0ec0d151-75d4-4b9f-9e33-55b79cb24830">
           <CubeDimensionID>Dim Platform</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="7308e58c-c3b4-43a7-83c7-433a67e8d275">
+            <Attribute dwd:design-time-name="8e91f896-5709-4b8f-8caa-8555671e1368">
               <AttributeID>Platform Key</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="e4310e69-fcd1-4205-8b17-e67a39971575">
+                <KeyColumn dwd:design-time-name="e89dde65-86f0-4c45-9ae6-dbdd309d60b3">
                   <DataType>Integer</DataType>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="a5664351-cc8f-4902-a2f4-025120fd4aa7">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="813aa564-417f-494c-95ac-937db7686147">
                     <TableID>dbo_Fact_Ticket_Snapshot</TableID>
                     <ColumnID>platform_key</ColumnID>
                   </Source>
@@ -1512,15 +1530,15 @@
             </Attribute>
           </Attributes>
         </Dimension>
-        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="19d87237-9e71-42d0-b340-edc0e7fd9d1e">
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="acb823fd-4234-4005-84ed-b794bbba6f04">
           <CubeDimensionID>Fixed In Version</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="55b8765d-d458-42d9-b908-77f4a39cf0a8">
+            <Attribute dwd:design-time-name="afc34084-b30e-49cf-9de1-2f219b635c04">
               <AttributeID>Version Key</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="3e5de099-1cf7-45ca-9157-92c0c4ff30ec">
+                <KeyColumn dwd:design-time-name="9ccfa3da-7da9-42b7-a9ec-35f2dc592492">
                   <DataType>Integer</DataType>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="92727595-9edd-4933-a68b-8774aef98cf4">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="11de33ba-c61d-40d7-b10d-e8855533bbcc">
                     <TableID>dbo_Fact_Ticket_Snapshot</TableID>
                     <ColumnID>fixed_in_version_key</ColumnID>
                   </Source>
@@ -1530,15 +1548,15 @@
             </Attribute>
           </Attributes>
         </Dimension>
-        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="262b3dc5-8bd2-40f4-82fa-cc754752de8a">
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="4ce7ac79-ae01-40dd-bbaf-ae12f9ac934c">
           <CubeDimensionID>Product Version</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="516c97ff-fe42-49e7-ae19-d017f431fc36">
+            <Attribute dwd:design-time-name="7da577bc-6853-48e1-8bd3-d24947b381ae">
               <AttributeID>Version Key</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="411f152d-a2f4-4a22-87c4-860338c7ff23">
+                <KeyColumn dwd:design-time-name="933f7170-99c4-410b-8e94-f2001de63d30">
                   <DataType>Integer</DataType>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="7c2e85d4-4dee-4c38-bfe1-af18ad4944f6">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="b64076be-b504-45b8-87e0-948df0c4cd29">
                     <TableID>dbo_Fact_Ticket_Snapshot</TableID>
                     <ColumnID>product_version_key</ColumnID>
                   </Source>
@@ -1548,10 +1566,10 @@
             </Attribute>
           </Attributes>
         </Dimension>
-        <Dimension xsi:type="ReferenceMeasureGroupDimension" dwd:design-time-name="8d34579a-4f43-4963-97c8-06677b1f404a">
+        <Dimension xsi:type="ReferenceMeasureGroupDimension" dwd:design-time-name="d672a951-83ec-4789-a4b7-13fe5e3817b2">
           <CubeDimensionID>Dim Ticket - Date Submitted</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="a0e6f2d3-12d7-4295-81a7-4c9d88082492">
+            <Attribute dwd:design-time-name="8dadb4d0-34ad-43ae-b8d1-f0bf88719877">
               <AttributeID>Date Key</AttributeID>
               <Type>Granularity</Type>
             </Attribute>
@@ -1565,11 +1583,11 @@
       <Partitions />
     </MeasureGroup>
   </MeasureGroups>
-  <Source dwd:design-time-name="c4e8715b-53ea-49cf-8df1-81ac0329432f">
+  <Source dwd:design-time-name="cc3999d9-c55d-44da-ad50-9a71f824a488">
     <DataSourceViewID>DW Scribus</DataSourceViewID>
   </Source>
   <MdxScripts>
-    <MdxScript dwd:design-time-name="e40c9b4e-61e1-4778-b8b1-526f0c2efddb">
+    <MdxScript dwd:design-time-name="f20d9ce0-c694-4c96-bc03-d79bb56f9687">
       <ID>MdxScript</ID>
       <Name>MdxScript</Name>
       <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>

@@ -1,4 +1,4 @@
-﻿<DataSourceView xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="cf23afba-3e4d-42f7-b570-264cdc3ed4c0" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+﻿<DataSourceView xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="aa96c96c-7956-42dd-bf36-105d1fb6be35" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
   <ID>DW Scribus</ID>
   <Name>DW Scribus</Name>
   <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
@@ -27,7 +27,7 @@
             <Name>_ALL_TABLES_</Name>
             <DiagramLayout>
               <dds>
-                <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="68" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="71" scrolltop="-1008" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="84" x="26445" y="20770" backcolor="16777215" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+                <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="68" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="14391" scrolltop="4652" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="84" x="5252" y="20439" backcolor="16777215" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
                   <font>
                     <ddsxmlobjectstreamwrapper binary="0100000090019e330100065461686f6d61" />
                   </font>
@@ -567,8 +567,8 @@
 </DiagramLayout>
             <ShowRelationshipNames>False</ShowRelationshipNames>
             <UseDiagramDefaultLayout>True</UseDiagramDefaultLayout>
-            <DiagramViewPortLeft>71</DiagramViewPortLeft>
-            <DiagramViewPortTop>-1008</DiagramViewPortTop>
+            <DiagramViewPortLeft>14391</DiagramViewPortLeft>
+            <DiagramViewPortTop>4652</DiagramViewPortTop>
             <DiagramBoundingLeft>0</DiagramBoundingLeft>
             <DiagramBoundingTop>0</DiagramBoundingTop>
             <DiagramZoom>84</DiagramZoom>
@@ -645,7 +645,7 @@
                   <xs:element name="iso_year" msprop:FriendlyName="iso_year" msprop:DbColumnName="iso_year" msprop:design-time-name="e62e564a-cc49-4d5a-befc-e9c792980761" type="xs:int" />
                   <xs:element name="week" msprop:FriendlyName="week" msprop:DbColumnName="week" msprop:design-time-name="cd57f834-c2a5-4e45-9f45-b2bd4ff0d356" type="xs:int" />
                   <xs:element name="day" msprop:FriendlyName="day" msprop:DbColumnName="day" msprop:design-time-name="ef03d66f-189d-4a5d-9a1f-1d6ba97a68df" type="xs:int" />
-                  <xs:element name="month_name" msdata:ReadOnly="true" msprop:Description="" msprop:design-time-name="dc396bf3-c6e0-47c7-bad4-eafc3ded51f0" msprop:IsLogical="True" msprop:DbColumnName="month_name" msprop:ComputedColumnExpression="CASE [month]&#xD;&#xA;     WHEN 1 THEN 'January'  WHEN 2 THEN 'February'  WHEN 3 THEN 'March'&#xD;&#xA;     WHEN 4 THEN 'April'    WHEN 5 THEN 'May'       WHEN 6 THEN 'June'&#xD;&#xA;     WHEN 7 THEN 'July'     WHEN 8 THEN 'August'   WHEN 9 THEN 'September'&#xD;&#xA;     WHEN 10 THEN 'October' WHEN 11 THEN 'November' WHEN 12 THEN 'December'&#xD;&#xA;   END" minOccurs="0">
+                  <xs:element name="month_name" msdata:ReadOnly="true" msprop:DbColumnName="month_name" msprop:IsLogical="True" msprop:design-time-name="dc396bf3-c6e0-47c7-bad4-eafc3ded51f0" msprop:Description="" msprop:ComputedColumnExpression="CASE [month]&#xD;&#xA;     WHEN 1 THEN 'January'  WHEN 2 THEN 'February'  WHEN 3 THEN 'March'&#xD;&#xA;     WHEN 4 THEN 'April'    WHEN 5 THEN 'May'       WHEN 6 THEN 'June'&#xD;&#xA;     WHEN 7 THEN 'July'     WHEN 8 THEN 'August'   WHEN 9 THEN 'September'&#xD;&#xA;     WHEN 10 THEN 'October' WHEN 11 THEN 'November' WHEN 12 THEN 'December'&#xD;&#xA;   END" minOccurs="0">
                     <xs:simpleType>
                       <xs:restriction base="xs:string">
                         <xs:maxLength value="9" />
@@ -701,6 +701,7 @@
                       </xs:restriction>
                     </xs:simpleType>
                   </xs:element>
+                  <xs:element name="priority_order" msdata:ReadOnly="true" msprop:Description="" msprop:design-time-name="07ea0ed5-7139-4b91-a654-bca4e551c38c" msprop:IsLogical="True" msprop:DbColumnName="priority_order" msprop:ComputedColumnExpression="CASE priority_name&#xD;&#xA;  WHEN 'none' THEN 1 WHEN 'low' THEN 2 WHEN 'normal' THEN 3&#xD;&#xA;  WHEN 'high' THEN 4 WHEN 'urgent' THEN 5 WHEN 'immediate' THEN 6&#xD;&#xA;  ELSE 99 END" type="xs:int" />
                 </xs:sequence>
               </xs:complexType>
             </xs:element>
@@ -771,6 +772,7 @@
                       </xs:restriction>
                     </xs:simpleType>
                   </xs:element>
+                  <xs:element name="severity_order" msdata:ReadOnly="true" msprop:Description="" msprop:design-time-name="34e1135e-f871-407d-8604-11d2652e6051" msprop:IsLogical="True" msprop:DbColumnName="severity_order" msprop:ComputedColumnExpression="CASE severity_name&#xD;&#xA;  WHEN 'feature' THEN 1 WHEN 'trivial' THEN 2 WHEN 'text' THEN 3 WHEN 'tweak' THEN 4&#xD;&#xA;  WHEN 'minor' THEN 5 WHEN 'major' THEN 6 WHEN 'crash' THEN 7 WHEN 'block' THEN 8&#xD;&#xA;  ELSE 99 END" type="xs:int" />
                 </xs:sequence>
               </xs:complexType>
             </xs:element>
@@ -905,77 +907,77 @@
           <xs:selector xpath=".//dbo_Dim_Version" />
           <xs:field xpath="version_key" />
         </xs:unique>
-        <xs:keyref name="FK_Dim_Ticket_Date_Submitted" refer="dbo_Dim_Date_Constraint1">
-          <xs:selector xpath=".//dbo_Dim_Ticket" />
-          <xs:field xpath="date_submitted_key" />
-        </xs:keyref>
         <xs:keyref name="FK_Dim_Ticket_Date_Resolution" refer="dbo_Dim_Date_Constraint1">
           <xs:selector xpath=".//dbo_Dim_Ticket" />
           <xs:field xpath="date_resolution_key" />
         </xs:keyref>
-        <xs:keyref name="FK_Fact_Severity" refer="dbo_Dim_Severity_Constraint1">
-          <xs:selector xpath=".//dbo_Fact_Ticket_Snapshot" />
-          <xs:field xpath="severity_key" />
+        <xs:keyref name="FK_Dim_Ticket_Date_Submitted" refer="dbo_Dim_Date_Constraint1">
+          <xs:selector xpath=".//dbo_Dim_Ticket" />
+          <xs:field xpath="date_submitted_key" />
         </xs:keyref>
-        <xs:keyref name="FK_Fact_Assigned_To" refer="dbo_Dim_Assigned_To_Constraint1">
+        <xs:keyref name="FK_Fact_Ticket" refer="dbo_Dim_Ticket_Constraint1">
           <xs:selector xpath=".//dbo_Fact_Ticket_Snapshot" />
-          <xs:field xpath="assigned_to_key" />
-        </xs:keyref>
-        <xs:keyref name="FK_Fact_OS" refer="dbo_Dim_OS_Constraint1">
-          <xs:selector xpath=".//dbo_Fact_Ticket_Snapshot" />
-          <xs:field xpath="os_key" />
-        </xs:keyref>
-        <xs:keyref name="FK_Fact_Reporter" refer="dbo_Dim_Reporter_Constraint1">
-          <xs:selector xpath=".//dbo_Fact_Ticket_Snapshot" />
-          <xs:field xpath="reporter_key" />
-        </xs:keyref>
-        <xs:keyref name="FK_Fact_Date_Updated" refer="dbo_Dim_Date_Constraint1">
-          <xs:selector xpath=".//dbo_Fact_Ticket_Snapshot" />
-          <xs:field xpath="date_updated_key" />
-        </xs:keyref>
-        <xs:keyref name="FK_Fact_Priority" refer="dbo_Dim_Priority_Constraint1">
-          <xs:selector xpath=".//dbo_Fact_Ticket_Snapshot" />
-          <xs:field xpath="priority_key" />
-        </xs:keyref>
-        <xs:keyref name="FK_Fact_Status" refer="dbo_Dim_Status_Constraint1">
-          <xs:selector xpath=".//dbo_Fact_Ticket_Snapshot" />
-          <xs:field xpath="status_key" />
-        </xs:keyref>
-        <xs:keyref name="FK_Fact_Date_Loaded" refer="dbo_Dim_Date_Constraint1">
-          <xs:selector xpath=".//dbo_Fact_Ticket_Snapshot" />
-          <xs:field xpath="date_loaded_key" />
-        </xs:keyref>
-        <xs:keyref name="FK_Fact_Resolution" refer="dbo_Dim_Resolution_Constraint1">
-          <xs:selector xpath=".//dbo_Fact_Ticket_Snapshot" />
-          <xs:field xpath="resolution_key" />
-        </xs:keyref>
-        <xs:keyref name="FK_Fact_Project" refer="dbo_Dim_Project_Constraint1">
-          <xs:selector xpath=".//dbo_Fact_Ticket_Snapshot" />
-          <xs:field xpath="project_key" />
-        </xs:keyref>
-        <xs:keyref name="FK_Fact_Platform" refer="dbo_Dim_Platform_Constraint1">
-          <xs:selector xpath=".//dbo_Fact_Ticket_Snapshot" />
-          <xs:field xpath="platform_key" />
-        </xs:keyref>
-        <xs:keyref name="FK_Fact_Product_Version" refer="dbo_Dim_Version_Constraint1">
-          <xs:selector xpath=".//dbo_Fact_Ticket_Snapshot" />
-          <xs:field xpath="product_version_key" />
-        </xs:keyref>
-        <xs:keyref name="FK_Fact_Reproducibility" refer="dbo_Dim_Reproducibility_Constraint1">
-          <xs:selector xpath=".//dbo_Fact_Ticket_Snapshot" />
-          <xs:field xpath="reproducibility_key" />
-        </xs:keyref>
-        <xs:keyref name="FK_Fact_Category" refer="dbo_Dim_Category_Constraint1">
-          <xs:selector xpath=".//dbo_Fact_Ticket_Snapshot" />
-          <xs:field xpath="category_key" />
+          <xs:field xpath="ticket_key" />
         </xs:keyref>
         <xs:keyref name="FK_Fact_Fixed_In_Version" refer="dbo_Dim_Version_Constraint1">
           <xs:selector xpath=".//dbo_Fact_Ticket_Snapshot" />
           <xs:field xpath="fixed_in_version_key" />
         </xs:keyref>
-        <xs:keyref name="FK_Fact_Ticket" refer="dbo_Dim_Ticket_Constraint1">
+        <xs:keyref name="FK_Fact_Category" refer="dbo_Dim_Category_Constraint1">
           <xs:selector xpath=".//dbo_Fact_Ticket_Snapshot" />
-          <xs:field xpath="ticket_key" />
+          <xs:field xpath="category_key" />
+        </xs:keyref>
+        <xs:keyref name="FK_Fact_Reproducibility" refer="dbo_Dim_Reproducibility_Constraint1">
+          <xs:selector xpath=".//dbo_Fact_Ticket_Snapshot" />
+          <xs:field xpath="reproducibility_key" />
+        </xs:keyref>
+        <xs:keyref name="FK_Fact_Product_Version" refer="dbo_Dim_Version_Constraint1">
+          <xs:selector xpath=".//dbo_Fact_Ticket_Snapshot" />
+          <xs:field xpath="product_version_key" />
+        </xs:keyref>
+        <xs:keyref name="FK_Fact_Platform" refer="dbo_Dim_Platform_Constraint1">
+          <xs:selector xpath=".//dbo_Fact_Ticket_Snapshot" />
+          <xs:field xpath="platform_key" />
+        </xs:keyref>
+        <xs:keyref name="FK_Fact_Project" refer="dbo_Dim_Project_Constraint1">
+          <xs:selector xpath=".//dbo_Fact_Ticket_Snapshot" />
+          <xs:field xpath="project_key" />
+        </xs:keyref>
+        <xs:keyref name="FK_Fact_Resolution" refer="dbo_Dim_Resolution_Constraint1">
+          <xs:selector xpath=".//dbo_Fact_Ticket_Snapshot" />
+          <xs:field xpath="resolution_key" />
+        </xs:keyref>
+        <xs:keyref name="FK_Fact_Date_Loaded" refer="dbo_Dim_Date_Constraint1">
+          <xs:selector xpath=".//dbo_Fact_Ticket_Snapshot" />
+          <xs:field xpath="date_loaded_key" />
+        </xs:keyref>
+        <xs:keyref name="FK_Fact_Status" refer="dbo_Dim_Status_Constraint1">
+          <xs:selector xpath=".//dbo_Fact_Ticket_Snapshot" />
+          <xs:field xpath="status_key" />
+        </xs:keyref>
+        <xs:keyref name="FK_Fact_Priority" refer="dbo_Dim_Priority_Constraint1">
+          <xs:selector xpath=".//dbo_Fact_Ticket_Snapshot" />
+          <xs:field xpath="priority_key" />
+        </xs:keyref>
+        <xs:keyref name="FK_Fact_Date_Updated" refer="dbo_Dim_Date_Constraint1">
+          <xs:selector xpath=".//dbo_Fact_Ticket_Snapshot" />
+          <xs:field xpath="date_updated_key" />
+        </xs:keyref>
+        <xs:keyref name="FK_Fact_Reporter" refer="dbo_Dim_Reporter_Constraint1">
+          <xs:selector xpath=".//dbo_Fact_Ticket_Snapshot" />
+          <xs:field xpath="reporter_key" />
+        </xs:keyref>
+        <xs:keyref name="FK_Fact_OS" refer="dbo_Dim_OS_Constraint1">
+          <xs:selector xpath=".//dbo_Fact_Ticket_Snapshot" />
+          <xs:field xpath="os_key" />
+        </xs:keyref>
+        <xs:keyref name="FK_Fact_Assigned_To" refer="dbo_Dim_Assigned_To_Constraint1">
+          <xs:selector xpath=".//dbo_Fact_Ticket_Snapshot" />
+          <xs:field xpath="assigned_to_key" />
+        </xs:keyref>
+        <xs:keyref name="FK_Fact_Severity" refer="dbo_Dim_Severity_Constraint1">
+          <xs:selector xpath=".//dbo_Fact_Ticket_Snapshot" />
+          <xs:field xpath="severity_key" />
         </xs:keyref>
       </xs:element>
     </xs:schema>
